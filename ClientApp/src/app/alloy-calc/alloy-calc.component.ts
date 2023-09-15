@@ -13,7 +13,6 @@ export class AlloyCalcComponent implements OnInit {
   partsSum: Array<number> = new Array<number>(34).fill(0)
   constructor (private dataService: MainService)
   {
-
   }
   ngOnInit(): void
   {
