@@ -1,0 +1,39 @@
+<div class="row">
+  <div class="col">
+    <h1>Capital ship components calculator</h1>
+    <p class="fs-5">This page is based and re-created from <a href="https://docs.google.com/spreadsheets/d/19p8NRY0y6B5uIOAYGCcHGCTEVjf2qkKXF0p9b4tWGC8">this spreadsheet</a></p>
+  </div>
+</div>
+<div class="row">
+  <div class="col">
+      <table class="table table-striped">
+        <thead>
+          <tr >
+            <th>Item</th>
+            <th>Count</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let item of items">
+            <td>{{item.name}}</td>
+            <td *ngIf="item.id !== undefined">
+              <input id="{{item.id}}" type="number" (input)="calcParts()">
+            </td>
+          </tr>
+        </tbody>
+      </table>
+     </div>
+  </div>
+<table class="table table-striped-columns">
+  <tbody>
+    <tr *ngFor="let i of [0,1,2,3,4,5,6]">
+      <td *ngFor="let name of materialsNames.slice(i*5,(i+1)*5)">
+        <div class="row" *ngIf="name.id !== undefined">
+          <div class="col-7">{{name.name}}</div>
+          <div class="col-5" id="{{name.id}}"><div style="width:1px">{{partsSum[name.id]}}</div></div>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
