@@ -10,6 +10,7 @@ import { HomeComponent } from './home/home.component';
 import { CapitalCalcComponent } from './capital-calc/capital-calc.component';
 import { AlloyCalcComponent } from './alloy-calc/alloy-calc.component';
 import { ShipCalcComponent } from './ship-calc/ship-calc.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { ShipCalcComponent } from './ship-calc/ship-calc.component';
     CapitalCalcComponent,
     AlloyCalcComponent,
     ShipCalcComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),

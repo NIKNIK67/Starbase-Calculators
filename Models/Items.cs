@@ -370,21 +370,273 @@ namespace Project1.Models
            {(int)Material.XhaliumOre,"Xhalium Ore"},
            {(int)Material.YmriumOre,"Ymrium Ore"},
         };
-        public static List<Thruster> Thrusters = new List<Thruster>()
-        {
+        public static List<Thruster> Thrusters = new List<Thruster>(){
+            new Thruster() {
+                Name = "Box thruster T1",
+                ThrustProduction = 500000,
+                PropelantConsume = 30.96f,
+                ElectricityConsume = 210,
+                ElectricityConsumePassive = 0
+            },
+            new Thruster() {
+                Name = "Box thruster T2",
+                ThrustProduction = 550000,
+                PropelantConsume = 26.966f,
+                ElectricityConsume = 183.6f,
+                ElectricityConsumePassive = 0
+            },
+            new Thruster() {
+                Name = "Box thruster T3",
+                ThrustProduction = 650000,
+                PropelantConsume = 39.154f,
+                ElectricityConsume = 183.6f,
+                ElectricityConsumePassive = 0
+            },
+            new Thruster() {
+                Name = "Triangle thruster T1",
+                ThrustProduction = 300000,
+                PropelantConsume = 27.864f,
+                ElectricityConsume = 96.2f,
+                ElectricityConsumePassive = 0
+            },
+            new Thruster() {
+                Name = "Triangle thruster T2",
+                ThrustProduction = 330000,
+                PropelantConsume = 24.369f,
+                ElectricityConsume = 84.1f,
+                ElectricityConsumePassive = 0
+            },
+            new Thruster() {
+                Name = "Triangle thruster T3",
+                ThrustProduction = 330000,
+                PropelantConsume = 24.369f,
+                ElectricityConsume = 84.1f,
+                ElectricityConsumePassive = 0
+            },
             new Thruster()
             {
+                Name = "Plasma thruster body",
+                ThrustProduction = 4000000,
+                PropelantConsume = 248f,
+                ElectricityConsume = 913.3f,
+                ElectricityConsumePassive = 0
+            },
+            new Thruster()
+            {
+                Name = "Plasma thruster ring",
+                ThrustProduction = 7000000,
+                PropelantConsume = 386,
+                ElectricityConsume = 880,
+                ElectricityConsumePassive = 0
+            },
+            new Thruster()
+            {
+                Name = "Maneuver thruster T1",
+                ThrustProduction = 40000,
+                PropelantConsume = 15,
+                ElectricityConsume = 40,
+                ElectricityConsumePassive = 0
+            },
+            new Thruster()
+            {
+                Name = "Maneuver thruster T2",
+                ThrustProduction = 44000,
+                PropelantConsume = 13.5f,
+                ElectricityConsume = 36,
+                ElectricityConsumePassive = 0
+            },
+            new Thruster()
+            {
+                Name = "Maneuver thruster T3",
+                ThrustProduction = 52000,
+                PropelantConsume = 18f,
+                ElectricityConsume = 36,
+                ElectricityConsumePassive = 0
+            }
+        };
+        public static List<Battery> Battery = new List<Battery>()
+        {
+            new Battery()
+            {
+                Name = "Battery",
+                ElecrticityStorage = 10000
+            },
+            new Battery()
+            {
+                Name = "Solar power converter",
+                ElecrticityStorage = 5000
+            },
+        };
+        public static List<FuelChamber> FuelChambers = new List<FuelChamber>()
+        {
+            new FuelChamber()
+            {
+                Name = "Fuel chamber T1",
+                HeatProduction = 95,
+                HeatDispiration = 5,
+                HeatStore = 1500,
+                HeatTransferToHeatsink = 1500,
+                HeatTransferToRadiator = 30
+
+            },
+            new FuelChamber()
+            {
+                Name = "Fuel chamber T2",
+                HeatProduction = 95,
+                HeatDispiration = 5,
+                HeatStore = 1500,
+                HeatTransferToHeatsink = 1500,
+                HeatTransferToRadiator = 30
+
+            },
+            new FuelChamber()
+            {
+                Name = "Fuel chamber T3",
+                HeatProduction = 80,
+                HeatDispiration = 5,
+                HeatStore = 1500,
+                HeatTransferToHeatsink = 1500,
+                HeatTransferToRadiator = 30
 
             },
         };
-        public static List<Battery> Battery = new List<Battery>();
-        public static List<FuelChamber> FuelChambers = new List<FuelChamber>();
-        public static List<Generator> Generators = new List<Generator>();
-        public static List<PropelantTank> PropelantTanks = new List<PropelantTank>();
-        public static List<Radiator> Radiators = new List<Radiator>();
-        public static List<Tool> Tools = new List<Tool>();
-        public static List<Weapon> Weapons = new List<Weapon>();
+        public static List<Generator> Generators = new List<Generator>()
+        {
+            new Generator()
+            {
+                Name = "Generator Unit T1",
+                ElectricityProduction= 1000,
+                HeatDispiration = 5,
+                HeatTransferToHeatsink = 1500,
+                HeatTransferToRadiator = 75,
+                HeatStore = 1500,
+                HeatProduction = 80
 
+            },
+            new Generator()
+            {
+                Name = "Generator Unit T2",
+                ElectricityProduction= 1000,
+                HeatDispiration = 5,
+                HeatTransferToHeatsink = 1500,
+                HeatTransferToRadiator = 75,
+                HeatStore = 1500,
+                HeatProduction = 80
+            },
+            new Generator()
+            {
+                Name = "Generator Unit T3",
+                ElectricityProduction= 1250,
+                HeatDispiration = 5,
+                HeatTransferToHeatsink = 1500,
+                HeatTransferToRadiator = 75,
+                HeatStore = 1500,
+                HeatProduction = 80
+            },
+        };
+        public static List<PropelantTank> PropelantTanks = new List<PropelantTank>()
+        {
+            new PropelantTank()
+            {
+                Name="Small Propellant Tank",
+                PropelantStore = 1000000
+            },
+            new PropelantTank()
+            {
+                Name="Medium Propellant Tank",
+                PropelantStore = 4000000
+            },
+            new PropelantTank()
+            {
+                Name="Large Propellant Tank",
+                PropelantStore = 12000000
+            },
+        };
+        public static List<Radiator> Radiators = new List<Radiator>()
+        {
+            new Radiator()
+            {
+                Name = "Radiator Base",
+                HeatStore = 1500,
+                HeatDispiration = 1500
+            },
+            new Radiator()
+            {
+                Name= "Radiator Extension",
+                HeatStore = 1500,
+                HeatDispiration = 750
+            }
+        };
+        public static List<Tool> Tools = new List<Tool>()
+        {
+            new Tool()
+            {
+                Name = "Rangefinder",
+                ElectricityConsume = 1,
+                ElectricityConsumePassive = 0
+            },
+            new Tool()
+            {
+                Name = "Mining laser",
+                ElectricityConsume = 6000,
+                ElectricityConsumePassive = 0
+            },
+            new Tool()
+            {
+                Name = "Ore collector",
+                ElectricityConsume = 3000,
+                ElectricityConsumePassive = 0
+            },
+            new Tool()
+            {
+                Name = "Material point scanner",
+                ElectricityConsume = 300,
+                ElectricityConsumePassive = 0
+            },
+        };
+        public static List<Weapon> Weapons = new List<Weapon>()
+        {
+            new Weapon()
+            {
+                Name = "Autocannon",
+                ElectricityConsumePassive = 250,
+                ElectricityConsume = 1002,
+                ElectricityConsumePerShot = 130,
+                HeatProduction = 1000,
+                HeatDispiration = 10,
+                HeatStore = 1000,
+            },
+            new Weapon()
+            {
+                Name = "Laser Cannon",
+                ElectricityConsumePassive = 250,
+                ElectricityConsume = 3000,
+                ElectricityConsumePerShot = 470,
+                HeatProduction = 500,
+                HeatDispiration = 10,
+                HeatStore = 1000,
+            },
+            new Weapon()
+            {
+                Name = "Plasma Cannon",
+                ElectricityConsumePassive = 250,
+                ElectricityConsume = 2603,
+                ElectricityConsumePerShot = 2205,
+                HeatProduction = 941,
+                HeatDispiration = 10,
+                HeatStore = 1000,
+            },new Weapon()
+            {
+                Name = "Rail Cannon",
+                ElectricityConsumePassive = 1500,
+                ElectricityConsume = 12700,
+                ElectricityConsumePerShot = 35000,
+                HeatProduction = 336,
+                HeatDispiration = 10,
+                HeatStore = 1000,
+            },
+
+        };
     }
     public class ShipModule
     {

@@ -7,4 +7,8 @@ namespace Project1.Models.Interfaces
     {
         public abstract float ThrustProduction { get; set; }
     }
+    public interface IWeapon
+    {
+        public abstract float ElectricityConsumePerShot { get; set; }
+    }
 }

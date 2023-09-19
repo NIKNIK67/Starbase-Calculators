@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Project1.DTOs.Get;
 using Project1.Models;
+using Project1.Models.ShipModuels;
 
 namespace Project1.Controllers
 {
@@ -40,6 +41,54 @@ namespace Project1.Controllers
                 result.Add(new ItemOutputDTO(item.Id, item.Name, item.Composition));
             }
             return result;
+        }
+        [HttpGet]
+        [Route("/GetThrusters")]
+        public List<Thruster> GetThrusters()
+        {
+            return Items.Thrusters;
+        }
+        [HttpGet]
+        [Route("/GetWeapons")]
+        public List<Weapon> GetWeapons()
+        {
+            return Items.Weapons;
+        }
+        [HttpGet]
+        [Route("/GetBatterys")]
+        public List<Battery> GetBatterys()
+        {
+            return Items.Battery;
+        }
+        [HttpGet]
+        [Route("/GetFuelChambers")]
+        public List<FuelChamber> GetFuelChambers()
+        {
+            return Items.FuelChambers;
+        }
+        [HttpGet]
+        [Route("/GetGenerators")]
+        public List<Generator> GetGenerators()
+        {
+            return Items.Generators;
+        }
+        [HttpGet]
+        [Route("/GetPropelantTanks")]
+        public List<PropelantTank> GetPropelantTanks()
+        {
+            return Items.PropelantTanks;
+        }
+        [HttpGet]
+        [Route("/GetRadiators")]
+        public List<Radiator> GetRadiators()
+        {
+            return Items.Radiators;
+        }
+        [HttpGet]
+        [Route("/GetTools")]
+        public List<Tool> GetTools()
+        {
+            return Items.Tools;
         }
     }
 }
