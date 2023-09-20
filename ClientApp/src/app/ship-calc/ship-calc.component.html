@@ -1,0 +1,71 @@
+<div class="row">
+  <div class="col">
+    <div class="card bg-body-tertiary m-1 mb-2 border-0 pb-2 pt-2">
+      <h4 class="text-center"> Thrusters</h4>
+      <div class="row m-1" *ngFor="let thruster of thrusters ">
+        <div class="col text-center">{{thruster.name}}</div>
+        <div class="col text-center"><input id="{{thruster.name}}-id" type="number" min="0" value="0" class="form-control border-0"/></div>
+      </div>
+    </div>
+    <div class="card bg-body-tertiary m-1 mb-2 border-0 pb-2 pt-2">
+      <h4 class="text-center "> Weapons</h4>
+      <div class="row m-1" *ngFor="let weapon of weapons">
+        <div class="col text-center">{{weapon.name}}</div>
+        <div class="col text-center"><input id="{{weapon.name}}-id" type="number" min="0" value="0" class="form-control border-0" /></div>
+      </div>
+    </div>
+    <div class="card bg-body-tertiary m-1 mb-2 border-0 pb-2 pt-2">
+      <h4 class="text-center "> Tools</h4>
+      <div class="row m-1" *ngFor="let tool of tools">
+        <div class="col text-center">{{tool.name}}</div>
+        <div class="col text-center"><input id="{{tool.name}}-id" type="number" min="0" value="0" class="form-control border-0" /></div>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card bg-body-tertiary m-1 mb-2 border-0 pb-2 pt-2">
+      <h4 class="text-center">Fuel Chambers</h4>
+      <div class="row m-1" *ngFor="let chamber of fuelChambers ">
+        <div class="col text-center">{{chamber.name}}</div>
+        <div class="col text-center"><input id="{{chamber.name}}-id" type="number" min="0" value="0" class="form-control border-0" /></div>
+      </div>
+    </div>
+    <div class="card bg-body-tertiary m-1 mb-2 border-0 pb-2 pt-2">
+      <h4 class="text-center">Generator</h4>
+      <div class="row m-1" *ngFor="let generator of generators ">
+        <div class="col text-center">{{generator.name}}</div>
+        <div class="col text-center"><input id="{{generator.name}}-id" type="number" min="0" value="0" class="form-control border-0" /></div>
+      </div>
+    </div>
+    <div class="card bg-body-tertiary m-1 mb-2 border-0 pb-2 pt-2">
+      <h4 class="text-center">Batteries</h4>
+      <div class="row m-1" *ngFor="let battery of batteries ">
+        <div class="col text-center">{{battery.name}}</div>
+        <div class="col text-center"><input id="{{battery.name}}-id" type="number" min="0" value="0" class="form-control border-0" /></div>
+      </div>
+    </div>
+    <div class="card bg-body-tertiary m-1 mb-2 border-0 pb-2 pt-2">
+      <h4 class="text-center">Radiators</h4>
+      <div class="row m-1" *ngFor="let radiator of radiators ">
+        <div class="col text-center">{{radiator.name}}</div>
+        <div class="col text-center"><input id="{{radiator.name}}-id" type="number" min="0" value="0" class="form-control border-0" /></div>
+      </div>
+    </div>
+    <div class="card bg-body-tertiary m-1 mb-2 border-0 pb-2 pt-2">
+      <h4 class="text-center">Propelant Tanks</h4>
+      <div class="row m-1" *ngFor="let propelantTank of propelantTanks ">
+        <div class="col text-center">{{propelantTank.name}}</div>
+        <div class="col text-center"><input id="{{propelantTank.name}}-id" type="number" min="0" value="0" class="form-control border-0" /></div>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card bg-body-tertiary m-1 mb-2 border-0 pb-2 pt-2">
+      <h4 class="text-center">Results</h4>
+      <div class="row m-1">
+        <div class="col text-center"></div>
+        <div class="col text-center"></div>
+      </div>
+    </div>
+  </div>
+</div>

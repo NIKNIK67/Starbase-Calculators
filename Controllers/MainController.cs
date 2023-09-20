@@ -9,6 +9,7 @@ namespace Project1.Controllers
     [Route("[controller]")]
     public class MainController : ControllerBase
     {
+
         [HttpGet]
         [Route("/GetCapitalItems")]
         public List<ItemOutputDTO> GetCapitalItems()
@@ -55,8 +56,8 @@ namespace Project1.Controllers
             return Items.Weapons;
         }
         [HttpGet]
-        [Route("/GetBatterys")]
-        public List<Battery> GetBatterys()
+        [Route("/GetBatteries")]
+        public List<Battery> GetBatteries()
         {
             return Items.Battery;
         }

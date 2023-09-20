@@ -16,10 +16,10 @@ import { getAlloyItemsGet$Json } from '../fn/main/get-alloy-items-get-json';
 import { GetAlloyItemsGet$Json$Params } from '../fn/main/get-alloy-items-get-json';
 import { getAlloyItemsGet$Plain } from '../fn/main/get-alloy-items-get-plain';
 import { GetAlloyItemsGet$Plain$Params } from '../fn/main/get-alloy-items-get-plain';
-import { getBatterysGet$Json } from '../fn/main/get-batterys-get-json';
-import { GetBatterysGet$Json$Params } from '../fn/main/get-batterys-get-json';
-import { getBatterysGet$Plain } from '../fn/main/get-batterys-get-plain';
-import { GetBatterysGet$Plain$Params } from '../fn/main/get-batterys-get-plain';
+import { getBatteriesGet$Json } from '../fn/main/get-batteries-get-json';
+import { GetBatteriesGet$Json$Params } from '../fn/main/get-batteries-get-json';
+import { getBatteriesGet$Plain } from '../fn/main/get-batteries-get-plain';
+import { GetBatteriesGet$Plain$Params } from '../fn/main/get-batteries-get-plain';
 import { getCapitalItemsGet$Json } from '../fn/main/get-capital-items-get-json';
 import { GetCapitalItemsGet$Json$Params } from '../fn/main/get-capital-items-get-json';
 import { getCapitalItemsGet$Plain } from '../fn/main/get-capital-items-get-plain';
@@ -305,49 +305,49 @@ export class MainService extends BaseService {
     );
   }
 
-  /** Path part for operation `getBatterysGet()` */
-  static readonly GetBatterysGetPath = '/GetBatterys';
+  /** Path part for operation `getBatteriesGet()` */
+  static readonly GetBatteriesGetPath = '/GetBatteries';
 
   /**
    * This method provides access to the full `HttpResponse`, allowing access to response headers.
-   * To access only the response body, use `getBatterysGet$Plain()` instead.
+   * To access only the response body, use `getBatteriesGet$Plain()` instead.
    *
    * This method doesn't expect any request body.
    */
-  getBatterysGet$Plain$Response(params?: GetBatterysGet$Plain$Params, context?: HttpContext): Observable<StrictHttpResponse<Array<Battery>>> {
-    return getBatterysGet$Plain(this.http, this.rootUrl, params, context);
+  getBatteriesGet$Plain$Response(params?: GetBatteriesGet$Plain$Params, context?: HttpContext): Observable<StrictHttpResponse<Array<Battery>>> {
+    return getBatteriesGet$Plain(this.http, this.rootUrl, params, context);
   }
 
   /**
    * This method provides access only to the response body.
-   * To access the full response (for headers, for example), `getBatterysGet$Plain$Response()` instead.
+   * To access the full response (for headers, for example), `getBatteriesGet$Plain$Response()` instead.
    *
    * This method doesn't expect any request body.
    */
-  getBatterysGet$Plain(params?: GetBatterysGet$Plain$Params, context?: HttpContext): Observable<Array<Battery>> {
-    return this.getBatterysGet$Plain$Response(params, context).pipe(
+  getBatteriesGet$Plain(params?: GetBatteriesGet$Plain$Params, context?: HttpContext): Observable<Array<Battery>> {
+    return this.getBatteriesGet$Plain$Response(params, context).pipe(
       map((r: StrictHttpResponse<Array<Battery>>): Array<Battery> => r.body)
     );
   }
 
   /**
    * This method provides access to the full `HttpResponse`, allowing access to response headers.
-   * To access only the response body, use `getBatterysGet$Json()` instead.
+   * To access only the response body, use `getBatteriesGet$Json()` instead.
    *
    * This method doesn't expect any request body.
    */
-  getBatterysGet$Json$Response(params?: GetBatterysGet$Json$Params, context?: HttpContext): Observable<StrictHttpResponse<Array<Battery>>> {
-    return getBatterysGet$Json(this.http, this.rootUrl, params, context);
+  getBatteriesGet$Json$Response(params?: GetBatteriesGet$Json$Params, context?: HttpContext): Observable<StrictHttpResponse<Array<Battery>>> {
+    return getBatteriesGet$Json(this.http, this.rootUrl, params, context);
   }
 
   /**
    * This method provides access only to the response body.
-   * To access the full response (for headers, for example), `getBatterysGet$Json$Response()` instead.
+   * To access the full response (for headers, for example), `getBatteriesGet$Json$Response()` instead.
    *
    * This method doesn't expect any request body.
    */
-  getBatterysGet$Json(params?: GetBatterysGet$Json$Params, context?: HttpContext): Observable<Array<Battery>> {
-    return this.getBatterysGet$Json$Response(params, context).pipe(
+  getBatteriesGet$Json(params?: GetBatteriesGet$Json$Params, context?: HttpContext): Observable<Array<Battery>> {
+    return this.getBatteriesGet$Json$Response(params, context).pipe(
       map((r: StrictHttpResponse<Array<Battery>>): Array<Battery> => r.body)
     );
   }

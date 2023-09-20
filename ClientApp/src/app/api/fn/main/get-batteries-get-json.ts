@@ -8,16 +8,16 @@ import { RequestBuilder } from '../../request-builder';
 
 import { Battery } from '../../models/battery';
 
-export interface GetBatterysGet$Plain$Params {
+export interface GetBatteriesGet$Json$Params {
 }
 
-export function getBatterysGet$Plain(http: HttpClient, rootUrl: string, params?: GetBatterysGet$Plain$Params, context?: HttpContext): Observable<StrictHttpResponse<Array<Battery>>> {
-  const rb = new RequestBuilder(rootUrl, getBatterysGet$Plain.PATH, 'get');
+export function getBatteriesGet$Json(http: HttpClient, rootUrl: string, params?: GetBatteriesGet$Json$Params, context?: HttpContext): Observable<StrictHttpResponse<Array<Battery>>> {
+  const rb = new RequestBuilder(rootUrl, getBatteriesGet$Json.PATH, 'get');
   if (params) {
   }
 
   return http.request(
-    rb.build({ responseType: 'text', accept: 'text/plain', context })
+    rb.build({ responseType: 'json', accept: 'text/json', context })
   ).pipe(
     filter((r: any): r is HttpResponse<any> => r instanceof HttpResponse),
     map((r: HttpResponse<any>) => {
@@ -26,4 +26,4 @@ export function getBatterysGet$Plain(http: HttpClient, rootUrl: string, params?:
   );
 }
 
-getBatterysGet$Plain.PATH = '/GetBatterys';
+getBatteriesGet$Json.PATH = '/GetBatteries';
