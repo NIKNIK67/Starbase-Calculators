@@ -521,7 +521,7 @@ namespace Project1.Models
                 HeatTransferToHeatsink = 1500,
                 HeatTransferToRadiator = 75,
                 HeatStore = 1500,
-                HeatProduction = 80
+                HeatProduction = 90
             },
             new Generator()
             {
@@ -531,7 +531,7 @@ namespace Project1.Models
                 HeatTransferToHeatsink = 1500,
                 HeatTransferToRadiator = 75,
                 HeatStore = 1500,
-                HeatProduction = 80
+                HeatProduction = 100
             },
         };
         public static List<PropelantTank> PropelantTanks = new List<PropelantTank>()
