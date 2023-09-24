@@ -1,3 +1,5 @@
+
+
 namespace Project1
 {
     public class Program
@@ -10,8 +12,17 @@ namespace Project1
 
             builder.Services.AddControllersWithViews();
             builder.Services.AddSwaggerGen();
+            builder.Services.AddCors(options =>
+            {
+                options.AddDefaultPolicy(builder =>
+                    builder
+                        .AllowAnyOrigin()
+                        .AllowAnyHeader()
+                        .AllowAnyMethod());
+            }
+            );
             var app = builder.Build();
-
+            app.UseMiddleware<RequestLogger>();
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
             {
@@ -21,10 +32,7 @@ namespace Project1
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseRouting();
-            app.UseCors(builder => builder
-                .WithOrigins("*").
-                AllowAnyMethod().
-                AllowAnyHeader());
+            app.UseCors();
             app.UseSwagger().UseSwaggerUI();
             app.MapControllerRoute(
                 name: "default",
@@ -33,6 +41,23 @@ namespace Project1
             app.MapFallbackToFile("index.html");
 
             app.Run();
+        }
+    }
+    public class RequestLogger
+    {
+        private readonly RequestDelegate next;
+        private readonly ILogger<RequestLogger> logger;
+
+        public RequestLogger(RequestDelegate next, ILogger<RequestLogger> logger)
+        {
+            this.next = next;
+            this.logger = logger;
+        }
+
+        public async Task InvokeAsync(HttpContext context)
+        {
+            logger.Log(LogLevel.Information, $"Request path:{context.Request.Path} \tRequest ip address {context.Request.HttpContext.Connection.RemoteIpAddress?.MapToIPv4().ToString()}:{context.Request.HttpContext.Connection.RemotePort}");
+            await next.Invoke(context);
         }
     }
 }

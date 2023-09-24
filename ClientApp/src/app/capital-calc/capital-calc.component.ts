@@ -33,7 +33,7 @@ export class CapitalCalcComponent implements OnInit {
     for (let i = 0; i < this.partsSum.length; i++) {
       this.partsSum[i] = 0;
     }
-    let element: HTMLInputElement[] = []
+    const element: HTMLInputElement[] = []
     for (let i = this.items[0].id; i < this.items[this.items.length - 1].id + 1; i++)
     {
       element.push(document.getElementById(i.toString()) as HTMLInputElement);
@@ -42,8 +42,8 @@ export class CapitalCalcComponent implements OnInit {
       if (Number(element.filter(x => Number(x.id) === i)[0]?.value ?? 0) !== 0)
       for (let j = 0; j < this.partsSum.length; j++)
       {
-        let matAmount:number = this.items.filter((x) => x.id === i)[0].compositions.filter(x => x.material === j)[0]?.amount || 0
-        let times: number = Number(element.filter(x => Number(x.id) === i)[0]?.value ?? 0)
+        const matAmount:number = this.items.filter((x) => x.id === i)[0].compositions.filter(x => x.material === j)[0]?.amount || 0
+        const times: number = Number(element.filter(x => Number(x.id) === i)[0]?.value ?? 0)
         this.partsSum[j] += Math.ceil((matAmount * times) / 1728)
       }
     }
