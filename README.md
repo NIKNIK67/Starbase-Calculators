@@ -17,7 +17,7 @@ Or just run:
 
 defaul routes are:
 
-    http://127.0.0.1:5000
-    https://127.0.0.1:5001
+    http://127.0.0.1:80
+    https://127.0.0.1:443
 
-api access is on :5001 port.
+api access is on :443 port. Make sure that those ports are free, windows can use them.
