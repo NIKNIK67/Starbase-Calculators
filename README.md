@@ -3,6 +3,7 @@
 Made with ASP.Net + Angular.<br>
 Before using run:
 
+    cd ClientApp
     npm install 
 
 To build:
