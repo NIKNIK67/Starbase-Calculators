@@ -23,12 +23,13 @@ namespace Project1
             );
             var app = builder.Build();
             app.UseMiddleware<RequestLogger>();
-            // Configure the HTTP request pipeline.
+#if debug
             if (!app.Environment.IsDevelopment())
             {
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
+#endif
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseRouting();
