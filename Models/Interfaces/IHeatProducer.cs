@@ -1,8 +1,8 @@
 ﻿#nullable disable
 
-using Project1;
+using WebPage;
 
-namespace Project1.Models.Interfaces
+namespace WebPage.Models.Interfaces
 {
     public interface IHeatProducer
     {

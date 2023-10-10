@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Project1.DTOs.Get;
-using Project1.Models;
-using Project1.Models.ShipModuels;
+using WebPage.DTOs.Get;
+using WebPage.Models;
+using WebPage.Models.ShipModuels;
 
-namespace Project1.Controllers
+namespace WebPage.Controllers
 {
     [ApiController]
     [Route("[controller]")]
@@ -90,6 +90,12 @@ namespace Project1.Controllers
         public List<Tool> GetTools()
         {
             return Items.Tools;
+        }
+        [HttpGet]
+        [Route("/GetOreLocations")]
+        public List<Location> GetOreLocations()
+        {
+            return Items.Locations;
         }
     }
 }

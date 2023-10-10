@@ -1,6 +1,6 @@
 ﻿#nullable disable
 
-namespace Project1.Models
+namespace WebPage.Models
 {
     public enum Material
     {

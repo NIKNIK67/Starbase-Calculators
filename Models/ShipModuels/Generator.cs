@@ -1,8 +1,8 @@
 ﻿#nullable disable
 
-using Project1.Models.Interfaces;
+using WebPage.Models.Interfaces;
 
-namespace Project1.Models.ShipModuels
+namespace WebPage.Models.ShipModuels
 {
     public class Generator : ShipModule, IHeatStorage, IHeatProducer, IHeatDispirator, IElecrticityProducer, IHeatTransfer
     {

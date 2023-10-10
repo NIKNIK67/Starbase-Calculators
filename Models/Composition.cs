@@ -1,4 +1,4 @@
-﻿namespace Project1.Models
+﻿namespace WebPage.Models
 {
     public class Composition
     {

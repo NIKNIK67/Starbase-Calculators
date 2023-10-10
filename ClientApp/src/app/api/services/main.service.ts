@@ -36,6 +36,10 @@ import { getMaterialsNamesGet$Json } from '../fn/main/get-materials-names-get-js
 import { GetMaterialsNamesGet$Json$Params } from '../fn/main/get-materials-names-get-json';
 import { getMaterialsNamesGet$Plain } from '../fn/main/get-materials-names-get-plain';
 import { GetMaterialsNamesGet$Plain$Params } from '../fn/main/get-materials-names-get-plain';
+import { getOreLocationsGet$Json } from '../fn/main/get-ore-locations-get-json';
+import { GetOreLocationsGet$Json$Params } from '../fn/main/get-ore-locations-get-json';
+import { getOreLocationsGet$Plain } from '../fn/main/get-ore-locations-get-plain';
+import { GetOreLocationsGet$Plain$Params } from '../fn/main/get-ore-locations-get-plain';
 import { getPropelantTanksGet$Json } from '../fn/main/get-propelant-tanks-get-json';
 import { GetPropelantTanksGet$Json$Params } from '../fn/main/get-propelant-tanks-get-json';
 import { getPropelantTanksGet$Plain } from '../fn/main/get-propelant-tanks-get-plain';
@@ -57,6 +61,7 @@ import { GetWeaponsGet$Json$Params } from '../fn/main/get-weapons-get-json';
 import { getWeaponsGet$Plain } from '../fn/main/get-weapons-get-plain';
 import { GetWeaponsGet$Plain$Params } from '../fn/main/get-weapons-get-plain';
 import { ItemOutputDto } from '../models/item-output-dto';
+import { Location } from '../models/location';
 import { MaterialsNamesDto } from '../models/materials-names-dto';
 import { PropelantTank } from '../models/propelant-tank';
 import { Radiator } from '../models/radiator';
@@ -584,6 +589,53 @@ export class MainService extends BaseService {
   getToolsGet$Json(params?: GetToolsGet$Json$Params, context?: HttpContext): Observable<Array<Tool>> {
     return this.getToolsGet$Json$Response(params, context).pipe(
       map((r: StrictHttpResponse<Array<Tool>>): Array<Tool> => r.body)
+    );
+  }
+
+  /** Path part for operation `getOreLocationsGet()` */
+  static readonly GetOreLocationsGetPath = '/GetOreLocations';
+
+  /**
+   * This method provides access to the full `HttpResponse`, allowing access to response headers.
+   * To access only the response body, use `getOreLocationsGet$Plain()` instead.
+   *
+   * This method doesn't expect any request body.
+   */
+  getOreLocationsGet$Plain$Response(params?: GetOreLocationsGet$Plain$Params, context?: HttpContext): Observable<StrictHttpResponse<Array<Location>>> {
+    return getOreLocationsGet$Plain(this.http, this.rootUrl, params, context);
+  }
+
+  /**
+   * This method provides access only to the response body.
+   * To access the full response (for headers, for example), `getOreLocationsGet$Plain$Response()` instead.
+   *
+   * This method doesn't expect any request body.
+   */
+  getOreLocationsGet$Plain(params?: GetOreLocationsGet$Plain$Params, context?: HttpContext): Observable<Array<Location>> {
+    return this.getOreLocationsGet$Plain$Response(params, context).pipe(
+      map((r: StrictHttpResponse<Array<Location>>): Array<Location> => r.body)
+    );
+  }
+
+  /**
+   * This method provides access to the full `HttpResponse`, allowing access to response headers.
+   * To access only the response body, use `getOreLocationsGet$Json()` instead.
+   *
+   * This method doesn't expect any request body.
+   */
+  getOreLocationsGet$Json$Response(params?: GetOreLocationsGet$Json$Params, context?: HttpContext): Observable<StrictHttpResponse<Array<Location>>> {
+    return getOreLocationsGet$Json(this.http, this.rootUrl, params, context);
+  }
+
+  /**
+   * This method provides access only to the response body.
+   * To access the full response (for headers, for example), `getOreLocationsGet$Json$Response()` instead.
+   *
+   * This method doesn't expect any request body.
+   */
+  getOreLocationsGet$Json(params?: GetOreLocationsGet$Json$Params, context?: HttpContext): Observable<Array<Location>> {
+    return this.getOreLocationsGet$Json$Response(params, context).pipe(
+      map((r: StrictHttpResponse<Array<Location>>): Array<Location> => r.body)
     );
   }
 

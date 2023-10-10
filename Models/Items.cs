@@ -1,7 +1,7 @@
-﻿using Project1.Models.ShipModuels;
+﻿using WebPage.Models.ShipModuels;
 #nullable disable
 
-namespace Project1.Models
+namespace WebPage.Models
 {
 
     public class Items
@@ -634,6 +634,2552 @@ namespace Project1.Models
                 HeatProduction = 336,
                 HeatDispiration = 10,
                 HeatStore = 1000,
+            },
+
+        };
+        public static List<Location> Locations = new List<Location>()
+        {
+            new Location()
+            {
+                name="Eos",
+                imageUrl="",
+                OreLocations= new List<OreLocation>()
+                {
+                    new OreLocation()
+                    {
+                        name="Zone 1",
+                        LocationType = LocationType.BeltZone,
+                        Ores = new List<OreLocationElement>()
+                        {
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.ValkiteOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.Ice
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.AjatiteOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.BastiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.NhurgiteCrystal
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.CharodiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.VokariumOre
+                            },
+                        }
+
+                    },
+                    new OreLocation()
+                    {
+                        name="Zone 2",
+                        LocationType = LocationType.BeltZone,
+                        Ores = new List<OreLocationElement>()
+                        {
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.ValkiteOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.AjatiteOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.BastiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.ExoriumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.AegisiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.NhurgiteCrystal
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.VokariumOre
+                            },
+                        }
+                    },
+                    new OreLocation()
+                    {
+                        name="Zone 3",
+                        LocationType = LocationType.BeltZone,
+                        Ores = new List<OreLocationElement>()
+                        {
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.Ice
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.ArkaniumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.ExoriumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.AegisiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.NhurgiteCrystal
+                            },
+                        }
+                    },
+                    new OreLocation()
+                    {
+                        name="Zone 4",
+                        LocationType = LocationType.BeltZone,
+                        Ores = new List<OreLocationElement>()
+                        {
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.AjatiteOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.ArkaniumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.BastiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.KarniteCrystal
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.KutoniumOre
+                            },
+                        }
+                    },
+                    new OreLocation()
+                    {
+                        name="Zone 5",
+                        LocationType = LocationType.BeltZone,
+                        Ores = new List<OreLocationElement>()
+                        {
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.ValkiteOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.CoraziumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.KutoniumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.KarniteCrystal
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.CharodiumOre
+                            },
+                        }
+                    },
+                    new OreLocation()
+                    {
+                        name="Ghost Belt",
+                        LocationType = LocationType.BeltZone,
+                        Ores = new List<OreLocationElement>()
+                        {
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.ValkiteOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.Ice
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.AjatiteOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.BastiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.ExoriumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.VokariumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.NhurgiteCrystal
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.CharodiumOre
+                            },
+                        }
+                    },
+                }
+            },
+            new Location()
+            {
+                name="Chemosh",
+                imageUrl="",
+                OreLocations= new List<OreLocation>()
+                {
+                    new OreLocation()
+                    {
+                        name="Surface",
+                        LocationType = LocationType.Surface,
+                        Ores = new List<OreLocationElement>()
+                        {
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.ValkiteOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.ArkaniumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.CharodiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.BastiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.ExoriumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.VokariumOre
+                            },
+                        }
+                    },
+                    new OreLocation()
+                    {
+                        name="Zone 1",
+                        LocationType = LocationType.BeltZone,
+                        Ores = new List<OreLocationElement>()
+                        {
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.ValkiteOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.CharodiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.KarniteCrystal
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.LukiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.SurtriteCrystal
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.AjatiteOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.BastiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.LukiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.TargiumOre
+                            },
+                        }
+                    },
+                    new OreLocation()
+                    {
+                        name="Zone 2",
+                        LocationType = LocationType.BeltZone,
+                        Ores = new List<OreLocationElement>()
+                        {
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.Ice
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.AegisiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.HaderiteCrystal
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.NhurgiteCrystal
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.TargiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.XhaliumOre
+                            },
+                        }
+                    }
+                }
+            },
+            new Location()
+            {
+                name="Sugon",
+                imageUrl="",
+                OreLocations= new List<OreLocation>()
+                {
+                    new OreLocation()
+                    {
+                        name="Surface",
+                        LocationType = LocationType.Surface,
+                        Ores = new List<OreLocationElement>()
+                        {
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.ValkiteOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.BastiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.CharodiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.AegisiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.VokariumOre
+                            },
+                        }
+                    },
+                }
+            },
+            new Location()
+            {
+                name="Elysium",
+                imageUrl="",
+                OreLocations= new List<OreLocation>()
+                {
+                    new OreLocation()
+                    {
+                        name="Surface",
+                        LocationType = LocationType.Surface,
+                        Ores = new List<OreLocationElement>()
+                        {
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.ValkiteOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.AegisiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.ArkaniumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.BastiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.KutoniumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.HaderiteCrystal
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.YmriumOre
+                            },
+                        }
+                    },
+                    new OreLocation()
+                    {
+                        name="Crater Type 1",
+                        LocationType = LocationType.Surface,
+                        Ores = new List<OreLocationElement>()
+                        {
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.ValkiteOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.NhurgiteCrystal
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.KarniteCrystal
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.KutoniumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.YmriumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.LukiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.XhaliumOre
+                            },
+                        }
+                    },
+                    new OreLocation()
+                    {
+                        name="Crater Type 2",
+                        LocationType = LocationType.Surface,
+                        Ores = new List<OreLocationElement>()
+                        {
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.ValkiteOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.XhaliumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.SurtriteCrystal
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.AegisiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.HaderiteCrystal
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.ArkaniumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.BastiumOre
+                            },
+                        }
+                    },
+                    new OreLocation()
+                    {
+                        name="Zone 1",
+                        LocationType = LocationType.BeltZone,
+                        Ores = new List<OreLocationElement>()
+                        {
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.Ice
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.BastiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.SurtriteCrystal
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.AegisiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.ArkaniumOre
+                            },
+                        }
+                    },
+                    new OreLocation()
+                    {
+                        name="Zone 2",
+                        LocationType = LocationType.BeltZone,
+                        Ores = new List<OreLocationElement>()
+                        {
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.AjatiteOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.BastiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.NhurgiteCrystal
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.LukiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.ValkiteOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.SurtriteCrystal
+                            },
+                        }
+                    },
+                    new OreLocation()
+                    {
+                        name="Zone 3",
+                        LocationType = LocationType.BeltZone,
+                        Ores = new List<OreLocationElement>()
+                        {
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.AjatiteOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.VokariumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.ValkiteOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.SurtriteCrystal
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.KarniteCrystal
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.YmriumOre
+                            },
+                        }
+                    },
+                }
+            },
+            new Location()
+            {
+                name="Kumi",
+                imageUrl="",
+                OreLocations= new List<OreLocation>()
+                {
+                    new OreLocation()
+                    {
+                        name="Surface",
+                        LocationType = LocationType.Surface,
+                        Ores = new List<OreLocationElement>()
+                        {
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.ValkiteOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.BastiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.CharodiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.HaderiteCrystal
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.SurtriteCrystal
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.VokariumOre
+                            },
+                        }
+                    },
+                    new OreLocation()
+                    {
+                        name="Zone 1",
+                        LocationType = LocationType.BeltZone,
+                        Ores = new List<OreLocationElement>()
+                        {
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.ValkiteOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.AegisiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.Ice
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.BastiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.NhurgiteCrystal
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.VokariumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.YmriumOre
+                            },
+
+                        }
+                    },
+                    new OreLocation()
+                    {
+                        name="Zone 2",
+                        LocationType = LocationType.BeltZone,
+                        Ores = new List<OreLocationElement>()
+                        {
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.AjatiteOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.Ice
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.BastiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.ExoriumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.KarniteCrystal
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.TargiumOre
+                            },
+                        }
+                    },
+                    new OreLocation()
+                    {
+                        name="Zone 3",
+                        LocationType = LocationType.BeltZone,
+                        Ores = new List<OreLocationElement>()
+                        {
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.ValkiteOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.CharodiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.IlmatriumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.KutoniumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.LukiumOre
+                            },
+                        }
+                    },
+                }
+            },
+            new Location()
+            {
+                name="Xevaos",
+                imageUrl="",
+                OreLocations= new List<OreLocation>()
+                {
+                    new OreLocation()
+                    {
+                        name="Surface",
+                        LocationType = LocationType.Surface,
+                        Ores = new List<OreLocationElement>()
+                        {
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.ValkiteOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.BastiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.CharodiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.SurtriteCrystal
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.ExoriumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.VokariumOre
+                            },
+                        }
+                    },
+                }
+            },
+            new Location()
+            {
+                name="AnaMllaan",
+                imageUrl="",
+                OreLocations= new List<OreLocation>()
+                {
+                    new OreLocation()
+                    {
+                        name="Surface",
+                        LocationType = LocationType.Surface,
+                        Ores = new List<OreLocationElement>()
+                        {
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.ValkiteOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.BastiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.CharodiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.HaderiteCrystal
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.KutoniumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.VokariumOre
+                            },
+                        }
+                    },
+                }
+            },
+            new Location()
+            {
+                name="Szellem",
+                imageUrl="",
+                OreLocations= new List<OreLocation>()
+                {
+                    new OreLocation()
+                    {
+                        name="Surface",
+                        LocationType = LocationType.Surface,
+                        Ores = new List<OreLocationElement>()
+                        {
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.ValkiteOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.AegisiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.BastiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.HaderiteCrystal
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.IlmatriumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.VokariumOre
+                            },
+                        }
+                    },
+                    new OreLocation()
+                    {
+                        name="Zone 1",
+                        LocationType = LocationType.BeltZone,
+                        Ores = new List<OreLocationElement>()
+                        {
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.Ice
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.HaderiteCrystal
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.KarniteCrystal
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.KutoniumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.VokariumOre
+                            },
+                        }
+                    },
+                    new OreLocation()
+                    {
+                        name="Zone 2",
+                        LocationType = LocationType.BeltZone,
+                        Ores = new List<OreLocationElement>()
+                        {
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.Ice
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.BastiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.HaderiteCrystal
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.VokariumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.YmriumOre
+                            },
+                        }
+                    },
+                    new OreLocation()
+                    {
+                        name="Zone 3",
+                        LocationType = LocationType.BeltZone,
+                        Ores = new List<OreLocationElement>()
+                        {
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.Ice
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.HaderiteCrystal
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.KarniteCrystal
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.KutoniumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.VokariumOre
+                            },
+                        }
+                    },
+                    new OreLocation()
+                    {
+                        name="Zone 4",
+                        LocationType = LocationType.BeltZone,
+                        Ores = new List<OreLocationElement>()
+                        {
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.Ice
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.AegisiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.IlmatriumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.NhurgiteCrystal
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.YmriumOre
+                            },
+                        }
+                    },
+                }
+            },
+            new Location()
+            {
+                name="Suti",
+                imageUrl="",
+                OreLocations= new List<OreLocation>()
+                {
+                    new OreLocation()
+                    {
+                        name="Surface",
+                        LocationType = LocationType.Surface,
+                        Ores = new List<OreLocationElement>()
+                        {
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.ValkiteOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.BastiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.CharodiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.LukiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.VokariumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.ExoriumOre
+                            },
+                        }
+                    },
+                }
+            },
+            new Location()
+            {
+                name="Suti",
+                imageUrl="",
+                OreLocations= new List<OreLocation>()
+                {
+                    new OreLocation()
+                    {
+                        name="Surface",
+                        LocationType = LocationType.Surface,
+                        Ores = new List<OreLocationElement>()
+                        {
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.ValkiteOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.BastiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.CharodiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.LukiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.VokariumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.ExoriumOre
+                            },
+                        }
+                    },
+                }
+            },
+            new Location()
+            {
+                name="Albedo",
+                imageUrl="",
+                OreLocations= new List<OreLocation>()
+                {
+                    new OreLocation()
+                    {
+                        name="Surface",
+                        LocationType = LocationType.Surface,
+                        Ores = new List<OreLocationElement>()
+                        {
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.ValkiteOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.ArkaniumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.BastiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.HaderiteCrystal
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.KutoniumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.MerkeriumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.YmriumOre
+                            },
+                        }
+                    },
+                }
+            },
+            new Location()
+            {
+                name="Mare",
+                imageUrl="",
+                OreLocations= new List<OreLocation>()
+                {
+                    new OreLocation()
+                    {
+                        name="Surface",
+                        LocationType = LocationType.Surface,
+                        Ores = new List<OreLocationElement>()
+                        {
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.ValkiteOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.AegisiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.BastiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.CharodiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.KutoniumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.VokariumOre
+                            },
+                        }
+                    },
+                }
+            },
+            new Location()
+            {
+                name= "Aura",
+                imageUrl="",
+                OreLocations= new List<OreLocation>()
+                {
+                    new OreLocation()
+                    {
+                        name="Surface",
+                        LocationType = LocationType.Surface,
+                        Ores = new List<OreLocationElement>()
+                        {
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.ValkiteOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.AegisiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.ArkaniumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.BastiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.VokariumOre
+                            },
+
+                        }
+                    },
+                }
+            },
+            new Location()
+            {
+                name= "Alstel",
+                imageUrl="",
+                OreLocations= new List<OreLocation>()
+                {
+                    new OreLocation()
+                    {
+                        name="Surface",
+                        LocationType = LocationType.Surface,
+                        Ores = new List<OreLocationElement>()
+                        {
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.ValkiteOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.BastiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.CharodiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.DaltiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.ExoriumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.VokariumOre
+                            },
+
+                        }
+                    },
+                    new OreLocation()
+                    {
+                        name="Zone 1",
+                        LocationType = LocationType.BeltZone,
+                        Ores = new List<OreLocationElement>()
+                        {
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.Ice
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.BastiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.ExoriumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.KutoniumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.AegisiumOre
+                            },
+                        }
+                    },
+                    new OreLocation()
+                    {
+                        name="Zone 2",
+                        LocationType = LocationType.BeltZone,
+                        Ores = new List<OreLocationElement>()
+                        {
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.ValkiteOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.BastiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.TargiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.Ice
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.NhurgiteCrystal
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.ExoriumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.AegisiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.YmriumOre
+                            },
+                        }
+                    },
+                    new OreLocation()
+                    {
+                        name="Zone 3",
+                        LocationType = LocationType.BeltZone,
+                        Ores = new List<OreLocationElement>()
+                        {
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.Ice
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.ArkaniumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.XhaliumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.CharodiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.IlmatriumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.ValkiteOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.AjatiteOre
+                            },
+                        }
+                    },
+                }
+            },
+            new Location()
+            {
+                name= "Spud",
+                imageUrl="",
+                OreLocations= new List<OreLocation>()
+                {
+                    new OreLocation()
+                    {
+                        name="Surface",
+                        LocationType = LocationType.Surface,
+                        Ores = new List<OreLocationElement>()
+                        {
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.ValkiteOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.BastiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.CharodiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.DaltiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.ExoriumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.VokariumOre
+                            },
+
+                        }
+                    },
+                }
+            },
+            new Location()
+            {
+                name= "Masser",
+                imageUrl="",
+                OreLocations= new List<OreLocation>()
+                {
+                    new OreLocation()
+                    {
+                        name="Surface",
+                        LocationType = LocationType.Surface,
+                        Ores = new List<OreLocationElement>()
+                        {
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.ValkiteOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.BastiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.MerkeriumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.VokariumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.CharodiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.KutoniumOre
+                            },
+
+                        }
+                    },
+                }
+            },
+            new Location()
+            {
+                name= "Secunda",
+                imageUrl="",
+                OreLocations= new List<OreLocation>()
+                {
+                    new OreLocation()
+                    {
+                        name="Surface",
+                        LocationType = LocationType.Surface,
+                        Ores = new List<OreLocationElement>()
+                        {
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.ValkiteOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.BastiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.MerkeriumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.VokariumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.CharodiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.KutoniumOre
+                            },
+
+                        }
+                    },
+                }
+            },
+            new Location()
+            {
+                name= "Caecus",
+                imageUrl="",
+                OreLocations= new List<OreLocation>()
+                {
+                    new OreLocation()
+                    {
+                        name="Surface",
+                        LocationType = LocationType.Surface,
+                        Ores = new List<OreLocationElement>()
+                        {
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.ValkiteOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.BastiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.HaderiteCrystal
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.UkoniumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.SurtriteCrystal
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.VokariumOre
+                            },
+
+                        }
+                    },
+                }
+            },
+            new Location()
+            {
+                name= "Mures",
+                imageUrl="",
+                OreLocations= new List<OreLocation>()
+                {
+                    new OreLocation()
+                    {
+                        name="Surface",
+                        LocationType = LocationType.Surface,
+                        Ores = new List<OreLocationElement>()
+                        {
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.ValkiteOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.BastiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.HaderiteCrystal
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.UkoniumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.CharodiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.NhurgiteCrystal
+                            },
+
+                        }
+                    },
+                }
+            },
+            new Location()
+            {
+                name= "Neso",
+                imageUrl="",
+                OreLocations= new List<OreLocation>()
+                {
+                    new OreLocation()
+                    {
+                        name="Surface",
+                        LocationType = LocationType.Surface,
+                        Ores = new List<OreLocationElement>()
+                        {
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.ValkiteOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.BastiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.CharodiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.NafliteOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.SurtriteCrystal
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.VokariumOre
+                            },
+
+                        }
+                    },
+                }
+            },
+            new Location()
+            {
+                name= "Ione",
+                imageUrl="",
+                OreLocations= new List<OreLocation>()
+                {
+                    new OreLocation()
+                    {
+                        name="Surface",
+                        LocationType = LocationType.Surface,
+                        Ores = new List<OreLocationElement>()
+                        {
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.ValkiteOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.BastiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.CharodiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.NafliteOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.ExoriumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.NhurgiteCrystal
+                            },
+                        }
+                    },
+                }
+            },
+            new Location()
+            {
+                name= "Aurora",
+                imageUrl="",
+                OreLocations= new List<OreLocation>()
+                {
+                    new OreLocation()
+                    {
+                        name="Surface",
+                        LocationType = LocationType.Surface,
+                        Ores = new List<OreLocationElement>()
+                        {
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.ValkiteOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.BastiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.CharodiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.HaderiteCrystal
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.SurtriteCrystal
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.TengiumOre
+                            },
+                        }
+                    },
+                }
+            },
+            new Location()
+            {
+                name= "Amethyst",
+                imageUrl="",
+                OreLocations= new List<OreLocation>()
+                {
+                    new OreLocation()
+                    {
+                        name="Surface",
+                        LocationType = LocationType.Surface,
+                        Ores = new List<OreLocationElement>()
+                        {
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.ValkiteOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.BastiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.AegisiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.OninumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.KutoniumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.HaderiteCrystal
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.ArkaniumOre
+                            },
+                        }
+                    },
+                }
+            },
+            new Location()
+            {
+                name= "Ferrum",
+                imageUrl="",
+                OreLocations= new List<OreLocation>()
+                {
+                    new OreLocation()
+                    {
+                        name="Surface",
+                        LocationType = LocationType.Surface,
+                        Ores = new List<OreLocationElement>()
+                        {
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.ValkiteOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.BastiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.AegisiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.OninumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.KutoniumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.HaderiteCrystal
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.ExoriumOre
+                            },
+                        }
+                    },
+                }
+            },
+            new Location()
+            {
+                name= "Tartarus",
+                imageUrl="",
+                OreLocations= new List<OreLocation>()
+                {
+                    new OreLocation()
+                    {
+                        name="Surface",
+                        LocationType = LocationType.Surface,
+                        Ores = new List<OreLocationElement>()
+                        {
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.ValkiteOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.BastiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.CharodiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.ExoriumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.TengiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.VokariumOre
+                            },
+                        }
+                    },
+                }
+            },
+            new Location()
+            {
+                name= "Tartarus",
+                imageUrl="",
+                OreLocations= new List<OreLocation>()
+                {
+                    new OreLocation()
+                    {
+                        name="Surface",
+                        LocationType = LocationType.Surface,
+                        Ores = new List<OreLocationElement>()
+                        {
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.ValkiteOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.BastiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.CharodiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.ExoriumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.TengiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.VokariumOre
+                            },
+                        }
+                    },
+                }
+            },
+            new Location()
+            {
+                name= "Tephra",
+                imageUrl="",
+                OreLocations= new List<OreLocation>()
+                {
+                    new OreLocation()
+                    {
+                        name="Surface",
+                        LocationType = LocationType.Surface,
+                        Ores = new List<OreLocationElement>()
+                        {
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.ValkiteOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.BastiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.CharodiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.ExoriumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.TengiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.VokariumOre
+                            },
+                        }
+                    },
+                }
+            },
+            new Location()
+            {
+                name= "Kypselis",
+                imageUrl="",
+                OreLocations= new List<OreLocation>()
+                {
+                    new OreLocation()
+                    {
+                        name="Surface",
+                        LocationType = LocationType.Surface,
+                        Ores = new List<OreLocationElement>()
+                        {
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.ValkiteOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.NafliteOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.ExoriumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.UkoniumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.CharodiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.ArkaniumOre
+                            },
+                        }
+                    },
+                }
+            },
+            new Location()
+            {
+                name= "Mel",
+                imageUrl="",
+                OreLocations= new List<OreLocation>()
+                {
+                    new OreLocation()
+                    {
+                        name="Surface",
+                        LocationType = LocationType.Surface,
+                        Ores = new List<OreLocationElement>()
+                        {
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.ValkiteOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.NafliteOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.ExoriumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.UkoniumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.CharodiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.ArkaniumOre
+                            },
+                        }
+                    },
+                }
+            },
+            new Location()
+            {
+                name= "Magellan",
+                imageUrl="",
+                OreLocations= new List<OreLocation>()
+                {
+                    new OreLocation()
+                    {
+                        name="Surface",
+                        LocationType = LocationType.Surface,
+                        Ores = new List<OreLocationElement>()
+                        {
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.ValkiteOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.AegisiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.BastiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.HaderiteCrystal
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.IlmatriumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.XhaliumOre
+                            },
+                        }
+                    },
+                }
+            },
+            new Location()
+            {
+                name= "Iris",
+                imageUrl="",
+                OreLocations= new List<OreLocation>()
+                {
+                    new OreLocation()
+                    {
+                        name="Surface",
+                        LocationType = LocationType.Surface,
+                        Ores = new List<OreLocationElement>()
+                        {
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.ValkiteOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.AegisiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.HaderiteCrystal
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.DaltiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.IlmatriumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.MerkeriumOre
+                            },
+                        }
+                    },
+                }
+            },
+            new Location()
+            {
+                name= "Borealis",
+                imageUrl="",
+                OreLocations= new List<OreLocation>()
+                {
+                    new OreLocation()
+                    {
+                        name="Surface",
+                        LocationType = LocationType.Surface,
+                        Ores = new List<OreLocationElement>()
+                        {
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.ValkiteOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.BastiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.CharodiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.DaltiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.NhurgiteCrystal
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.MerkeriumOre
+                            },
+                        }
+                    },
+                }
+            },
+            new Location()
+            {
+                name= "Szalonna",
+                imageUrl="",
+                OreLocations= new List<OreLocation>()
+                {
+                    new OreLocation()
+                    {
+                        name="Surface",
+                        LocationType = LocationType.Surface,
+                        Ores = new List<OreLocationElement>()
+                        {
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.ValkiteOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.AegisiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.HaderiteCrystal
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.IlmatriumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.NafliteOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.VokariumOre
+                            },
+                        }
+                    },
+                }
+            },
+            new Location()
+            {
+                name= "Ciel",
+                imageUrl="",
+                OreLocations= new List<OreLocation>()
+                {
+                    new OreLocation()
+                    {
+                        name="Surface",
+                        LocationType = LocationType.Surface,
+                        Ores = new List<OreLocationElement>()
+                        {
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.ValkiteOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.ArkaniumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.DaltiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.HaderiteCrystal
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.KutoniumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.TengiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.YmriumOre
+                            },
+                        }
+                    },
+                }
+            },
+            new Location()
+            {
+                name= "Vilous",
+                imageUrl="",
+                OreLocations= new List<OreLocation>()
+                {
+                    new OreLocation()
+                    {
+                        name="Surface",
+                        LocationType = LocationType.Surface,
+                        Ores = new List<OreLocationElement>()
+                        {
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.ValkiteOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.AjatiteOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.ArkaniumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.NhurgiteCrystal
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.ValkiteOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.VokariumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.YmriumOre
+                            },
+                        }
+                    },
+                }
+            },
+            new Location()
+            {
+                name= "Cassini",
+                imageUrl="",
+                OreLocations= new List<OreLocation>()
+                {
+                    new OreLocation()
+                    {
+                        name="Surface",
+                        LocationType = LocationType.Surface,
+                        Ores = new List<OreLocationElement>()
+                        {
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.ValkiteOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.ArkaniumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.BastiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Common,
+                                Material = Material.CharodiumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.ExoriumOre
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Uncommon,
+                                Material = Material.SurtriteCrystal
+                            },
+                            new OreLocationElement()
+                            {
+                                Rarity = OreRarity.Rare,
+                                Material = Material.YmriumOre
+                            },
+                        }
+                    },
+                }
             },
 
         };

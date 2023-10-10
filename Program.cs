@@ -1,6 +1,6 @@
 
 
-namespace Project1
+namespace WebPage
 {
     public class Program
     {

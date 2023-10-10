@@ -1,0 +1,20 @@
+<div class="row">
+  <div class="col">
+    <h1>{{currentLocation.name}}</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="col-3" *ngFor="let oreLocation of currentLocation.oreLocations" >
+    <div class=" card bg-body-tertiary m-1 mb-2 border-0 pb-2 pt-2">
+      <div class="card-title text-center">
+        <h3>{{oreLocation.name}}</h3>
+      </div>
+      <div class="card-text">
+        <div *ngFor="let oreElement of oreLocation.ores" class="row text-center">
+          <div class="col">{{materialsNames[oreElement.material].name}}</div>
+          <div class="col">{{rarites[oreElement.rarity]}}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

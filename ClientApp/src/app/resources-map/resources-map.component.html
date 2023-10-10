@@ -1,0 +1,47 @@
+
+<div class="row">
+  <div class="col-9">
+    <div class="row">
+      <div class="col-3 text-center " *ngFor="let location of resultLocations">
+        <a [routerLink]="['/location-page',location.name]" class="text-decoration-none">
+          <div class="card bg-body-tertiary m-1 mb-2 border-0 pb-2 pt-2">
+            <img src="https://www.industrialempathy.com/img/remote/ZiClJf-1920w.jpg" class="card-img-top" alt="" />
+            <div class="card-body">
+              <div class="card-title">
+                <h2 >{{location.name}} </h2>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="col-3">
+    <div class="card bg-body-tertiary m-1 mb-2 border-0 pb-2 pt-2">
+      <div class="row pt-2">
+        <div class="col text-center">
+          <input id="isSurface" class="form-check-input" type="checkbox" (change)="OnCheckboxLocationChange($event,1)" />
+        </div>
+        <div class="col text-center me-2">
+          In Surface
+        </div>
+      </div>
+      <div class="row pb-2">
+        <div class="col text-center">
+          <input id="isBelt" class="form-check-input" type="checkbox" (change)="OnCheckboxLocationChange($event,0)" />
+        </div>
+        <div class="col text-center me-2">
+          In Belt
+        </div>
+      </div>
+      <div class="row" *ngFor="let name of materialsNames">
+        <div class="col text-center">
+          <input id="{{name.id}}" class="form-check-input" type="checkbox" (change)="onCheckboxOreChange($event)" />
+        </div>
+        <div class="col text-center me-2">
+          {{name.name}}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

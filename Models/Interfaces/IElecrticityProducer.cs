@@ -1,7 +1,7 @@
 ﻿#nullable disable
 
 
-namespace Project1.Models.Interfaces
+namespace WebPage.Models.Interfaces
 {
     public interface IElecrticityProducer
     {

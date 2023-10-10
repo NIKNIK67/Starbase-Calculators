@@ -1,4 +1,4 @@
-﻿namespace Project1.DTOs.Get
+﻿namespace WebPage.DTOs.Get
 {
     public class MaterialsNamesDTO
     {
