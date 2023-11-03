@@ -1,0 +1,10 @@
+[
+  {
+    "elecrticityStorage": 10000,
+    "name": "Battery"
+  },
+  {
+    "elecrticityStorage": 5000,
+    "name": "Solar power converter"
+  }
+]

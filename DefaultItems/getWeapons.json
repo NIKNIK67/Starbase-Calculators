@@ -1,0 +1,46 @@
+[
+  {
+    "electricityConsume": 1002,
+    "electricityConsumePassive": 250,
+    "heatProduction": 1000,
+    "heatStore": 1000,
+    "heatDispiration": 10,
+    "electricityConsumePerShot": 130,
+    "heatTransferToHeatsink": 0,
+    "heatTransferToRadiator": 0,
+    "name": "Autocannon"
+  },
+  {
+    "electricityConsume": 3000,
+    "electricityConsumePassive": 250,
+    "heatProduction": 500,
+    "heatStore": 1000,
+    "heatDispiration": 10,
+    "electricityConsumePerShot": 470,
+    "heatTransferToHeatsink": 0,
+    "heatTransferToRadiator": 0,
+    "name": "Laser Cannon"
+  },
+  {
+    "electricityConsume": 2603,
+    "electricityConsumePassive": 250,
+    "heatProduction": 941,
+    "heatStore": 1000,
+    "heatDispiration": 10,
+    "electricityConsumePerShot": 2205,
+    "heatTransferToHeatsink": 0,
+    "heatTransferToRadiator": 0,
+    "name": "Plasma Cannon"
+  },
+  {
+    "electricityConsume": 12700,
+    "electricityConsumePassive": 1500,
+    "heatProduction": 336,
+    "heatStore": 1000,
+    "heatDispiration": 10,
+    "electricityConsumePerShot": 35000,
+    "heatTransferToHeatsink": 0,
+    "heatTransferToRadiator": 0,
+    "name": "Rail Cannon"
+  }
+]

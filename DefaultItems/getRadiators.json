@@ -1,0 +1,12 @@
+[
+  {
+    "heatStore": 1500,
+    "heatDispiration": 1500,
+    "name": "Radiator Base"
+  },
+  {
+    "heatStore": 1500,
+    "heatDispiration": 750,
+    "name": "Radiator Extension"
+  }
+]

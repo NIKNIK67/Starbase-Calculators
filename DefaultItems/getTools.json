@@ -1,0 +1,22 @@
+[
+  {
+    "electricityConsume": 1,
+    "electricityConsumePassive": 0,
+    "name": "Rangefinder"
+  },
+  {
+    "electricityConsume": 6000,
+    "electricityConsumePassive": 0,
+    "name": "Mining laser"
+  },
+  {
+    "electricityConsume": 3000,
+    "electricityConsumePassive": 0,
+    "name": "Ore collector"
+  },
+  {
+    "electricityConsume": 300,
+    "electricityConsumePassive": 0,
+    "name": "Material point scanner"
+  }
+]

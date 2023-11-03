@@ -1,4 +1,5 @@
-
+#nullable disable
+using WebPage.Middleware;
 
 namespace WebPage
 {
@@ -6,12 +7,17 @@ namespace WebPage
     {
         public static void Main(string[] args)
         {
-            var builder = WebApplication.CreateBuilder(args);
-
-            // Add services to the container.
-
-            builder.Services.AddControllersWithViews();
+#if RELEASE
+            EFContext.ConnectionString = args[0];
+#endif
+            var builder = WebApplication.CreateBuilder();
+            builder.Services.AddControllersWithViews().AddJsonOptions(options =>
+            {
+                options.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.IgnoreCycles;
+                options.JsonSerializerOptions.MaxDepth = 64;
+            });
             builder.Services.AddSwaggerGen();
+            builder.Services.AddDbContext<EFContext>();
             builder.Services.AddCors(options =>
             {
                 options.AddDefaultPolicy(builder =>
@@ -23,13 +29,10 @@ namespace WebPage
             );
             var app = builder.Build();
             app.UseMiddleware<RequestLogger>();
-#if debug
             if (!app.Environment.IsDevelopment())
             {
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
-#endif
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseRouting();
@@ -38,27 +41,8 @@ namespace WebPage
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller}/{action=Index}/{id?}");
-
             app.MapFallbackToFile("index.html");
-
             app.Run();
-        }
-    }
-    public class RequestLogger
-    {
-        private readonly RequestDelegate next;
-        private readonly ILogger<RequestLogger> logger;
-
-        public RequestLogger(RequestDelegate next, ILogger<RequestLogger> logger)
-        {
-            this.next = next;
-            this.logger = logger;
-        }
-
-        public async Task InvokeAsync(HttpContext context)
-        {
-            logger.Log(LogLevel.Information, $"Request path:{context.Request.Path} \tRequest ip address {context.Request.HttpContext.Connection.RemoteIpAddress?.MapToIPv4().ToString()}:{context.Request.HttpContext.Connection.RemotePort}");
-            await next.Invoke(context);
         }
     }
 }

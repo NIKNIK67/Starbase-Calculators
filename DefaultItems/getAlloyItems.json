@@ -1,0 +1,128 @@
+[
+  {
+    "id": 117,
+    "name": "Alium Alloy",
+    "compositions": [
+      {
+        "material": 30,
+        "amount": 1036
+      },
+      {
+        "material": 0,
+        "amount": 1036
+      },
+      {
+        "material": 22,
+        "amount": 518
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "name": "Baltium Alloy",
+    "compositions": [
+      {
+        "material": 30,
+        "amount": 1036
+      },
+      {
+        "material": 5,
+        "amount": 1036
+      },
+      {
+        "material": 22,
+        "amount": 518
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "name": "Bastonium Alloy",
+    "compositions": [
+      {
+        "material": 18,
+        "amount": 1296
+      },
+      {
+        "material": 5,
+        "amount": 1296
+      },
+      {
+        "material": 17,
+        "amount": 864
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "name": "Corium Alloy",
+    "compositions": [
+      {
+        "material": 33,
+        "amount": 1296
+      },
+      {
+        "material": 8,
+        "amount": 1296
+      },
+      {
+        "material": 14,
+        "amount": 864
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "name": "Exutium Alloy",
+    "compositions": [
+      {
+        "material": 11,
+        "amount": 1296
+      },
+      {
+        "material": 18,
+        "amount": 1296
+      },
+      {
+        "material": 14,
+        "amount": 864
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "name": "Glass",
+    "compositions": [
+      {
+        "material": 0,
+        "amount": 1036
+      },
+      {
+        "material": 1,
+        "amount": 1036
+      },
+      {
+        "material": 24,
+        "amount": 518
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "name": "Tallium Alloy",
+    "compositions": [
+      {
+        "material": 19,
+        "amount": 1296
+      },
+      {
+        "material": 27,
+        "amount": 1296
+      },
+      {
+        "material": 14,
+        "amount": 864
+      }
+    ]
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "propelantStore": 1000000,
+    "name": "Small Propellant Tank"
+  },
+  {
+    "propelantStore": 4000000,
+    "name": "Medium Propellant Tank"
+  },
+  {
+    "propelantStore": 12000000,
+    "name": "Large Propellant Tank"
+  }
+]

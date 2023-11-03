@@ -1,0 +1,29 @@
+[
+  {
+    "heatStore": 1500,
+    "heatProduction": 80,
+    "heatDispiration": 5,
+    "electricityProduction": 1000,
+    "heatTransferToHeatsink": 1500,
+    "heatTransferToRadiator": 75,
+    "name": "Generator Unit T1"
+  },
+  {
+    "heatStore": 1500,
+    "heatProduction": 90,
+    "heatDispiration": 5,
+    "electricityProduction": 1000,
+    "heatTransferToHeatsink": 1500,
+    "heatTransferToRadiator": 75,
+    "name": "Generator Unit T2"
+  },
+  {
+    "heatStore": 1500,
+    "heatProduction": 100,
+    "heatDispiration": 5,
+    "electricityProduction": 1250,
+    "heatTransferToHeatsink": 1500,
+    "heatTransferToRadiator": 75,
+    "name": "Generator Unit T3"
+  }
+]

@@ -1,0 +1,1990 @@
+[
+  {
+    "name": "Eos",
+    "imageUrl": "",
+    "oreLocations": [
+      {
+        "name": "Zone 1",
+        "locationType": 0,
+        "ores": [
+          {
+            "rarity": 2,
+            "material": 30
+          },
+          {
+            "rarity": 2,
+            "material": 15
+          },
+          {
+            "rarity": 2,
+            "material": 1
+          },
+          {
+            "rarity": 2,
+            "material": 5
+          },
+          {
+            "rarity": 1,
+            "material": 22
+          },
+          {
+            "rarity": 2,
+            "material": 7
+          },
+          {
+            "rarity": 2,
+            "material": 31
+          }
+        ]
+      },
+      {
+        "name": "Zone 2",
+        "locationType": 0,
+        "ores": [
+          {
+            "rarity": 2,
+            "material": 30
+          },
+          {
+            "rarity": 2,
+            "material": 1
+          },
+          {
+            "rarity": 2,
+            "material": 5
+          },
+          {
+            "rarity": 1,
+            "material": 11
+          },
+          {
+            "rarity": 0,
+            "material": 0
+          },
+          {
+            "rarity": 1,
+            "material": 22
+          },
+          {
+            "rarity": 1,
+            "material": 31
+          }
+        ]
+      },
+      {
+        "name": "Zone 3",
+        "locationType": 0,
+        "ores": [
+          {
+            "rarity": 2,
+            "material": 15
+          },
+          {
+            "rarity": 0,
+            "material": 3
+          },
+          {
+            "rarity": 1,
+            "material": 11
+          },
+          {
+            "rarity": 2,
+            "material": 0
+          },
+          {
+            "rarity": 2,
+            "material": 22
+          }
+        ]
+      },
+      {
+        "name": "Zone 4",
+        "locationType": 0,
+        "ores": [
+          {
+            "rarity": 2,
+            "material": 1
+          },
+          {
+            "rarity": 0,
+            "material": 3
+          },
+          {
+            "rarity": 2,
+            "material": 5
+          },
+          {
+            "rarity": 1,
+            "material": 17
+          },
+          {
+            "rarity": 0,
+            "material": 18
+          }
+        ]
+      },
+      {
+        "name": "Zone 5",
+        "locationType": 0,
+        "ores": [
+          {
+            "rarity": 2,
+            "material": 30
+          },
+          {
+            "rarity": 0,
+            "material": 8
+          },
+          {
+            "rarity": 1,
+            "material": 18
+          },
+          {
+            "rarity": 2,
+            "material": 17
+          },
+          {
+            "rarity": 2,
+            "material": 7
+          }
+        ]
+      },
+      {
+        "name": "Ghost Belt",
+        "locationType": 0,
+        "ores": [
+          {
+            "rarity": 2,
+            "material": 30
+          },
+          {
+            "rarity": 2,
+            "material": 15
+          },
+          {
+            "rarity": 2,
+            "material": 1
+          },
+          {
+            "rarity": 2,
+            "material": 5
+          },
+          {
+            "rarity": 0,
+            "material": 11
+          },
+          {
+            "rarity": 2,
+            "material": 31
+          },
+          {
+            "rarity": 1,
+            "material": 22
+          },
+          {
+            "rarity": 2,
+            "material": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Chemosh",
+    "imageUrl": "",
+    "oreLocations": [
+      {
+        "name": "Surface",
+        "locationType": 1,
+        "ores": [
+          {
+            "rarity": 2,
+            "material": 30
+          },
+          {
+            "rarity": 0,
+            "material": 3
+          },
+          {
+            "rarity": 0,
+            "material": 7
+          },
+          {
+            "rarity": 2,
+            "material": 5
+          },
+          {
+            "rarity": 2,
+            "material": 11
+          },
+          {
+            "rarity": 1,
+            "material": 31
+          }
+        ]
+      },
+      {
+        "name": "Zone 1",
+        "locationType": 0,
+        "ores": [
+          {
+            "rarity": 2,
+            "material": 30
+          },
+          {
+            "rarity": 2,
+            "material": 7
+          },
+          {
+            "rarity": 2,
+            "material": 17
+          },
+          {
+            "rarity": 0,
+            "material": 19
+          },
+          {
+            "rarity": 1,
+            "material": 24
+          },
+          {
+            "rarity": 2,
+            "material": 1
+          },
+          {
+            "rarity": 2,
+            "material": 5
+          },
+          {
+            "rarity": 2,
+            "material": 19
+          },
+          {
+            "rarity": 1,
+            "material": 27
+          }
+        ]
+      },
+      {
+        "name": "Zone 2",
+        "locationType": 0,
+        "ores": [
+          {
+            "rarity": 2,
+            "material": 15
+          },
+          {
+            "rarity": 0,
+            "material": 0
+          },
+          {
+            "rarity": 0,
+            "material": 14
+          },
+          {
+            "rarity": 2,
+            "material": 22
+          },
+          {
+            "rarity": 2,
+            "material": 27
+          },
+          {
+            "rarity": 1,
+            "material": 32
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sugon",
+    "imageUrl": "",
+    "oreLocations": [
+      {
+        "name": "Surface",
+        "locationType": 1,
+        "ores": [
+          {
+            "rarity": 2,
+            "material": 30
+          },
+          {
+            "rarity": 2,
+            "material": 5
+          },
+          {
+            "rarity": 2,
+            "material": 7
+          },
+          {
+            "rarity": 0,
+            "material": 0
+          },
+          {
+            "rarity": 0,
+            "material": 31
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Elysium",
+    "imageUrl": "",
+    "oreLocations": [
+      {
+        "name": "Surface",
+        "locationType": 1,
+        "ores": [
+          {
+            "rarity": 2,
+            "material": 30
+          },
+          {
+            "rarity": 2,
+            "material": 0
+          },
+          {
+            "rarity": 2,
+            "material": 3
+          },
+          {
+            "rarity": 2,
+            "material": 5
+          },
+          {
+            "rarity": 2,
+            "material": 18
+          },
+          {
+            "rarity": 2,
+            "material": 14
+          },
+          {
+            "rarity": 0,
+            "material": 33
+          }
+        ]
+      },
+      {
+        "name": "Crater Type 1",
+        "locationType": 1,
+        "ores": [
+          {
+            "rarity": 2,
+            "material": 30
+          },
+          {
+            "rarity": 2,
+            "material": 22
+          },
+          {
+            "rarity": 2,
+            "material": 17
+          },
+          {
+            "rarity": 2,
+            "material": 18
+          },
+          {
+            "rarity": 2,
+            "material": 33
+          },
+          {
+            "rarity": 2,
+            "material": 19
+          },
+          {
+            "rarity": 2,
+            "material": 32
+          }
+        ]
+      },
+      {
+        "name": "Crater Type 2",
+        "locationType": 1,
+        "ores": [
+          {
+            "rarity": 2,
+            "material": 30
+          },
+          {
+            "rarity": 2,
+            "material": 32
+          },
+          {
+            "rarity": 2,
+            "material": 24
+          },
+          {
+            "rarity": 2,
+            "material": 0
+          },
+          {
+            "rarity": 2,
+            "material": 14
+          },
+          {
+            "rarity": 2,
+            "material": 3
+          },
+          {
+            "rarity": 2,
+            "material": 5
+          }
+        ]
+      },
+      {
+        "name": "Zone 1",
+        "locationType": 0,
+        "ores": [
+          {
+            "rarity": 2,
+            "material": 15
+          },
+          {
+            "rarity": 2,
+            "material": 5
+          },
+          {
+            "rarity": 2,
+            "material": 24
+          },
+          {
+            "rarity": 1,
+            "material": 0
+          },
+          {
+            "rarity": 0,
+            "material": 3
+          }
+        ]
+      },
+      {
+        "name": "Zone 2",
+        "locationType": 0,
+        "ores": [
+          {
+            "rarity": 2,
+            "material": 1
+          },
+          {
+            "rarity": 2,
+            "material": 5
+          },
+          {
+            "rarity": 2,
+            "material": 22
+          },
+          {
+            "rarity": 0,
+            "material": 19
+          },
+          {
+            "rarity": 2,
+            "material": 30
+          },
+          {
+            "rarity": 2,
+            "material": 24
+          }
+        ]
+      },
+      {
+        "name": "Zone 3",
+        "locationType": 0,
+        "ores": [
+          {
+            "rarity": 2,
+            "material": 1
+          },
+          {
+            "rarity": 2,
+            "material": 31
+          },
+          {
+            "rarity": 2,
+            "material": 30
+          },
+          {
+            "rarity": 0,
+            "material": 24
+          },
+          {
+            "rarity": 2,
+            "material": 17
+          },
+          {
+            "rarity": 2,
+            "material": 33
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Kumi",
+    "imageUrl": "",
+    "oreLocations": [
+      {
+        "name": "Surface",
+        "locationType": 1,
+        "ores": [
+          {
+            "rarity": 2,
+            "material": 30
+          },
+          {
+            "rarity": 2,
+            "material": 5
+          },
+          {
+            "rarity": 2,
+            "material": 7
+          },
+          {
+            "rarity": 2,
+            "material": 14
+          },
+          {
+            "rarity": 2,
+            "material": 24
+          },
+          {
+            "rarity": 2,
+            "material": 31
+          }
+        ]
+      },
+      {
+        "name": "Zone 1",
+        "locationType": 0,
+        "ores": [
+          {
+            "rarity": 2,
+            "material": 30
+          },
+          {
+            "rarity": 1,
+            "material": 0
+          },
+          {
+            "rarity": 2,
+            "material": 15
+          },
+          {
+            "rarity": 2,
+            "material": 5
+          },
+          {
+            "rarity": 2,
+            "material": 22
+          },
+          {
+            "rarity": 2,
+            "material": 31
+          },
+          {
+            "rarity": 0,
+            "material": 33
+          }
+        ]
+      },
+      {
+        "name": "Zone 2",
+        "locationType": 0,
+        "ores": [
+          {
+            "rarity": 2,
+            "material": 1
+          },
+          {
+            "rarity": 2,
+            "material": 15
+          },
+          {
+            "rarity": 2,
+            "material": 5
+          },
+          {
+            "rarity": 1,
+            "material": 11
+          },
+          {
+            "rarity": 2,
+            "material": 17
+          },
+          {
+            "rarity": 0,
+            "material": 27
+          }
+        ]
+      },
+      {
+        "name": "Zone 3",
+        "locationType": 0,
+        "ores": [
+          {
+            "rarity": 2,
+            "material": 30
+          },
+          {
+            "rarity": 2,
+            "material": 7
+          },
+          {
+            "rarity": 0,
+            "material": 16
+          },
+          {
+            "rarity": 1,
+            "material": 18
+          },
+          {
+            "rarity": 1,
+            "material": 19
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Xevaos",
+    "imageUrl": "",
+    "oreLocations": [
+      {
+        "name": "Surface",
+        "locationType": 1,
+        "ores": [
+          {
+            "rarity": 2,
+            "material": 30
+          },
+          {
+            "rarity": 2,
+            "material": 5
+          },
+          {
+            "rarity": 2,
+            "material": 7
+          },
+          {
+            "rarity": 2,
+            "material": 24
+          },
+          {
+            "rarity": 2,
+            "material": 11
+          },
+          {
+            "rarity": 2,
+            "material": 31
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "AnaMllaan",
+    "imageUrl": "",
+    "oreLocations": [
+      {
+        "name": "Surface",
+        "locationType": 1,
+        "ores": [
+          {
+            "rarity": 2,
+            "material": 30
+          },
+          {
+            "rarity": 2,
+            "material": 5
+          },
+          {
+            "rarity": 2,
+            "material": 7
+          },
+          {
+            "rarity": 2,
+            "material": 14
+          },
+          {
+            "rarity": 2,
+            "material": 18
+          },
+          {
+            "rarity": 2,
+            "material": 31
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Szellem",
+    "imageUrl": "",
+    "oreLocations": [
+      {
+        "name": "Surface",
+        "locationType": 1,
+        "ores": [
+          {
+            "rarity": 2,
+            "material": 30
+          },
+          {
+            "rarity": 2,
+            "material": 0
+          },
+          {
+            "rarity": 2,
+            "material": 5
+          },
+          {
+            "rarity": 2,
+            "material": 14
+          },
+          {
+            "rarity": 2,
+            "material": 16
+          },
+          {
+            "rarity": 2,
+            "material": 31
+          }
+        ]
+      },
+      {
+        "name": "Zone 1",
+        "locationType": 0,
+        "ores": [
+          {
+            "rarity": 2,
+            "material": 15
+          },
+          {
+            "rarity": 1,
+            "material": 14
+          },
+          {
+            "rarity": 2,
+            "material": 17
+          },
+          {
+            "rarity": 0,
+            "material": 18
+          },
+          {
+            "rarity": 2,
+            "material": 31
+          }
+        ]
+      },
+      {
+        "name": "Zone 2",
+        "locationType": 0,
+        "ores": [
+          {
+            "rarity": 2,
+            "material": 15
+          },
+          {
+            "rarity": 2,
+            "material": 5
+          },
+          {
+            "rarity": 1,
+            "material": 14
+          },
+          {
+            "rarity": 2,
+            "material": 31
+          },
+          {
+            "rarity": 0,
+            "material": 33
+          }
+        ]
+      },
+      {
+        "name": "Zone 3",
+        "locationType": 0,
+        "ores": [
+          {
+            "rarity": 2,
+            "material": 15
+          },
+          {
+            "rarity": 1,
+            "material": 14
+          },
+          {
+            "rarity": 2,
+            "material": 17
+          },
+          {
+            "rarity": 0,
+            "material": 18
+          },
+          {
+            "rarity": 2,
+            "material": 31
+          }
+        ]
+      },
+      {
+        "name": "Zone 4",
+        "locationType": 0,
+        "ores": [
+          {
+            "rarity": 2,
+            "material": 15
+          },
+          {
+            "rarity": 1,
+            "material": 0
+          },
+          {
+            "rarity": 2,
+            "material": 16
+          },
+          {
+            "rarity": 0,
+            "material": 22
+          },
+          {
+            "rarity": 2,
+            "material": 33
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Suti",
+    "imageUrl": "",
+    "oreLocations": [
+      {
+        "name": "Surface",
+        "locationType": 1,
+        "ores": [
+          {
+            "rarity": 2,
+            "material": 30
+          },
+          {
+            "rarity": 2,
+            "material": 5
+          },
+          {
+            "rarity": 2,
+            "material": 7
+          },
+          {
+            "rarity": 2,
+            "material": 19
+          },
+          {
+            "rarity": 2,
+            "material": 31
+          },
+          {
+            "rarity": 2,
+            "material": 11
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Suti",
+    "imageUrl": "",
+    "oreLocations": [
+      {
+        "name": "Surface",
+        "locationType": 1,
+        "ores": [
+          {
+            "rarity": 2,
+            "material": 30
+          },
+          {
+            "rarity": 1,
+            "material": 5
+          },
+          {
+            "rarity": 2,
+            "material": 7
+          },
+          {
+            "rarity": 0,
+            "material": 19
+          },
+          {
+            "rarity": 0,
+            "material": 31
+          },
+          {
+            "rarity": 2,
+            "material": 11
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Albedo",
+    "imageUrl": "",
+    "oreLocations": [
+      {
+        "name": "Surface",
+        "locationType": 1,
+        "ores": [
+          {
+            "rarity": 2,
+            "material": 30
+          },
+          {
+            "rarity": 0,
+            "material": 3
+          },
+          {
+            "rarity": 2,
+            "material": 5
+          },
+          {
+            "rarity": 1,
+            "material": 14
+          },
+          {
+            "rarity": 1,
+            "material": 18
+          },
+          {
+            "rarity": 2,
+            "material": 20
+          },
+          {
+            "rarity": 0,
+            "material": 33
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mare",
+    "imageUrl": "",
+    "oreLocations": [
+      {
+        "name": "Surface",
+        "locationType": 1,
+        "ores": [
+          {
+            "rarity": 2,
+            "material": 30
+          },
+          {
+            "rarity": 2,
+            "material": 0
+          },
+          {
+            "rarity": 2,
+            "material": 5
+          },
+          {
+            "rarity": 1,
+            "material": 7
+          },
+          {
+            "rarity": 0,
+            "material": 18
+          },
+          {
+            "rarity": 2,
+            "material": 31
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Aura",
+    "imageUrl": "",
+    "oreLocations": [
+      {
+        "name": "Surface",
+        "locationType": 1,
+        "ores": [
+          {
+            "rarity": 2,
+            "material": 30
+          },
+          {
+            "rarity": 1,
+            "material": 0
+          },
+          {
+            "rarity": 0,
+            "material": 3
+          },
+          {
+            "rarity": 2,
+            "material": 5
+          },
+          {
+            "rarity": 2,
+            "material": 31
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Alstel",
+    "imageUrl": "",
+    "oreLocations": [
+      {
+        "name": "Surface",
+        "locationType": 1,
+        "ores": [
+          {
+            "rarity": 2,
+            "material": 30
+          },
+          {
+            "rarity": 2,
+            "material": 5
+          },
+          {
+            "rarity": 0,
+            "material": 7
+          },
+          {
+            "rarity": 0,
+            "material": 10
+          },
+          {
+            "rarity": 1,
+            "material": 11
+          },
+          {
+            "rarity": 1,
+            "material": 31
+          }
+        ]
+      },
+      {
+        "name": "Zone 1",
+        "locationType": 0,
+        "ores": [
+          {
+            "rarity": 2,
+            "material": 15
+          },
+          {
+            "rarity": 2,
+            "material": 5
+          },
+          {
+            "rarity": 1,
+            "material": 11
+          },
+          {
+            "rarity": 0,
+            "material": 18
+          },
+          {
+            "rarity": 2,
+            "material": 0
+          }
+        ]
+      },
+      {
+        "name": "Zone 2",
+        "locationType": 0,
+        "ores": [
+          {
+            "rarity": 2,
+            "material": 30
+          },
+          {
+            "rarity": 2,
+            "material": 5
+          },
+          {
+            "rarity": 0,
+            "material": 27
+          },
+          {
+            "rarity": 2,
+            "material": 15
+          },
+          {
+            "rarity": 1,
+            "material": 22
+          },
+          {
+            "rarity": 1,
+            "material": 11
+          },
+          {
+            "rarity": 2,
+            "material": 0
+          },
+          {
+            "rarity": 0,
+            "material": 33
+          }
+        ]
+      },
+      {
+        "name": "Zone 3",
+        "locationType": 0,
+        "ores": [
+          {
+            "rarity": 2,
+            "material": 15
+          },
+          {
+            "rarity": 1,
+            "material": 3
+          },
+          {
+            "rarity": 0,
+            "material": 32
+          },
+          {
+            "rarity": 2,
+            "material": 7
+          },
+          {
+            "rarity": 0,
+            "material": 16
+          },
+          {
+            "rarity": 2,
+            "material": 30
+          },
+          {
+            "rarity": 2,
+            "material": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Spud",
+    "imageUrl": "",
+    "oreLocations": [
+      {
+        "name": "Surface",
+        "locationType": 1,
+        "ores": [
+          {
+            "rarity": 2,
+            "material": 30
+          },
+          {
+            "rarity": 0,
+            "material": 5
+          },
+          {
+            "rarity": 1,
+            "material": 7
+          },
+          {
+            "rarity": 2,
+            "material": 10
+          },
+          {
+            "rarity": 2,
+            "material": 11
+          },
+          {
+            "rarity": 0,
+            "material": 31
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Masser",
+    "imageUrl": "",
+    "oreLocations": [
+      {
+        "name": "Surface",
+        "locationType": 1,
+        "ores": [
+          {
+            "rarity": 2,
+            "material": 30
+          },
+          {
+            "rarity": 0,
+            "material": 5
+          },
+          {
+            "rarity": 1,
+            "material": 20
+          },
+          {
+            "rarity": 2,
+            "material": 31
+          },
+          {
+            "rarity": 2,
+            "material": 7
+          },
+          {
+            "rarity": 0,
+            "material": 18
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Secunda",
+    "imageUrl": "",
+    "oreLocations": [
+      {
+        "name": "Surface",
+        "locationType": 1,
+        "ores": [
+          {
+            "rarity": 2,
+            "material": 30
+          },
+          {
+            "rarity": 2,
+            "material": 5
+          },
+          {
+            "rarity": 2,
+            "material": 20
+          },
+          {
+            "rarity": 2,
+            "material": 31
+          },
+          {
+            "rarity": 1,
+            "material": 7
+          },
+          {
+            "rarity": 0,
+            "material": 18
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Caecus",
+    "imageUrl": "",
+    "oreLocations": [
+      {
+        "name": "Surface",
+        "locationType": 1,
+        "ores": [
+          {
+            "rarity": 2,
+            "material": 30
+          },
+          {
+            "rarity": 1,
+            "material": 5
+          },
+          {
+            "rarity": 0,
+            "material": 14
+          },
+          {
+            "rarity": 0,
+            "material": 29
+          },
+          {
+            "rarity": 1,
+            "material": 24
+          },
+          {
+            "rarity": 2,
+            "material": 31
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mures",
+    "imageUrl": "",
+    "oreLocations": [
+      {
+        "name": "Surface",
+        "locationType": 1,
+        "ores": [
+          {
+            "rarity": 2,
+            "material": 30
+          },
+          {
+            "rarity": 1,
+            "material": 5
+          },
+          {
+            "rarity": 0,
+            "material": 14
+          },
+          {
+            "rarity": 0,
+            "material": 29
+          },
+          {
+            "rarity": 1,
+            "material": 7
+          },
+          {
+            "rarity": 2,
+            "material": 22
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Neso",
+    "imageUrl": "",
+    "oreLocations": [
+      {
+        "name": "Surface",
+        "locationType": 1,
+        "ores": [
+          {
+            "rarity": 2,
+            "material": 30
+          },
+          {
+            "rarity": 1,
+            "material": 5
+          },
+          {
+            "rarity": 0,
+            "material": 7
+          },
+          {
+            "rarity": 1,
+            "material": 21
+          },
+          {
+            "rarity": 1,
+            "material": 24
+          },
+          {
+            "rarity": 2,
+            "material": 31
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ione",
+    "imageUrl": "",
+    "oreLocations": [
+      {
+        "name": "Surface",
+        "locationType": 1,
+        "ores": [
+          {
+            "rarity": 2,
+            "material": 30
+          },
+          {
+            "rarity": 2,
+            "material": 5
+          },
+          {
+            "rarity": 2,
+            "material": 7
+          },
+          {
+            "rarity": 1,
+            "material": 21
+          },
+          {
+            "rarity": 0,
+            "material": 11
+          },
+          {
+            "rarity": 1,
+            "material": 22
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Aurora",
+    "imageUrl": "",
+    "oreLocations": [
+      {
+        "name": "Surface",
+        "locationType": 1,
+        "ores": [
+          {
+            "rarity": 2,
+            "material": 30
+          },
+          {
+            "rarity": 1,
+            "material": 5
+          },
+          {
+            "rarity": 0,
+            "material": 7
+          },
+          {
+            "rarity": 1,
+            "material": 14
+          },
+          {
+            "rarity": 1,
+            "material": 24
+          },
+          {
+            "rarity": 2,
+            "material": 28
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Amethyst",
+    "imageUrl": "",
+    "oreLocations": [
+      {
+        "name": "Surface",
+        "locationType": 1,
+        "ores": [
+          {
+            "rarity": 2,
+            "material": 30
+          },
+          {
+            "rarity": 1,
+            "material": 5
+          },
+          {
+            "rarity": 2,
+            "material": 0
+          },
+          {
+            "rarity": 1,
+            "material": 23
+          },
+          {
+            "rarity": 0,
+            "material": 18
+          },
+          {
+            "rarity": 1,
+            "material": 14
+          },
+          {
+            "rarity": 0,
+            "material": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ferrum",
+    "imageUrl": "",
+    "oreLocations": [
+      {
+        "name": "Surface",
+        "locationType": 1,
+        "ores": [
+          {
+            "rarity": 2,
+            "material": 30
+          },
+          {
+            "rarity": 1,
+            "material": 5
+          },
+          {
+            "rarity": 0,
+            "material": 0
+          },
+          {
+            "rarity": 2,
+            "material": 23
+          },
+          {
+            "rarity": 0,
+            "material": 18
+          },
+          {
+            "rarity": 1,
+            "material": 14
+          },
+          {
+            "rarity": 0,
+            "material": 11
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Tartarus",
+    "imageUrl": "",
+    "oreLocations": [
+      {
+        "name": "Surface",
+        "locationType": 1,
+        "ores": [
+          {
+            "rarity": 2,
+            "material": 30
+          },
+          {
+            "rarity": 1,
+            "material": 5
+          },
+          {
+            "rarity": 0,
+            "material": 7
+          },
+          {
+            "rarity": 1,
+            "material": 11
+          },
+          {
+            "rarity": 1,
+            "material": 28
+          },
+          {
+            "rarity": 2,
+            "material": 31
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Tartarus",
+    "imageUrl": "",
+    "oreLocations": [
+      {
+        "name": "Surface",
+        "locationType": 1,
+        "ores": [
+          {
+            "rarity": 2,
+            "material": 30
+          },
+          {
+            "rarity": 2,
+            "material": 5
+          },
+          {
+            "rarity": 0,
+            "material": 7
+          },
+          {
+            "rarity": 2,
+            "material": 11
+          },
+          {
+            "rarity": 0,
+            "material": 28
+          },
+          {
+            "rarity": 1,
+            "material": 31
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Tephra",
+    "imageUrl": "",
+    "oreLocations": [
+      {
+        "name": "Surface",
+        "locationType": 1,
+        "ores": [
+          {
+            "rarity": 2,
+            "material": 30
+          },
+          {
+            "rarity": 2,
+            "material": 5
+          },
+          {
+            "rarity": 0,
+            "material": 7
+          },
+          {
+            "rarity": 2,
+            "material": 11
+          },
+          {
+            "rarity": 0,
+            "material": 28
+          },
+          {
+            "rarity": 1,
+            "material": 31
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Kypselis",
+    "imageUrl": "",
+    "oreLocations": [
+      {
+        "name": "Surface",
+        "locationType": 1,
+        "ores": [
+          {
+            "rarity": 2,
+            "material": 30
+          },
+          {
+            "rarity": 2,
+            "material": 21
+          },
+          {
+            "rarity": 2,
+            "material": 11
+          },
+          {
+            "rarity": 1,
+            "material": 29
+          },
+          {
+            "rarity": 0,
+            "material": 7
+          },
+          {
+            "rarity": 0,
+            "material": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mel",
+    "imageUrl": "",
+    "oreLocations": [
+      {
+        "name": "Surface",
+        "locationType": 1,
+        "ores": [
+          {
+            "rarity": 2,
+            "material": 30
+          },
+          {
+            "rarity": 2,
+            "material": 21
+          },
+          {
+            "rarity": 2,
+            "material": 11
+          },
+          {
+            "rarity": 1,
+            "material": 29
+          },
+          {
+            "rarity": 0,
+            "material": 7
+          },
+          {
+            "rarity": 0,
+            "material": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Magellan",
+    "imageUrl": "",
+    "oreLocations": [
+      {
+        "name": "Surface",
+        "locationType": 1,
+        "ores": [
+          {
+            "rarity": 2,
+            "material": 30
+          },
+          {
+            "rarity": 1,
+            "material": 0
+          },
+          {
+            "rarity": 2,
+            "material": 5
+          },
+          {
+            "rarity": 1,
+            "material": 14
+          },
+          {
+            "rarity": 0,
+            "material": 16
+          },
+          {
+            "rarity": 2,
+            "material": 32
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Iris",
+    "imageUrl": "",
+    "oreLocations": [
+      {
+        "name": "Surface",
+        "locationType": 1,
+        "ores": [
+          {
+            "rarity": 2,
+            "material": 30
+          },
+          {
+            "rarity": 1,
+            "material": 0
+          },
+          {
+            "rarity": 0,
+            "material": 14
+          },
+          {
+            "rarity": 2,
+            "material": 10
+          },
+          {
+            "rarity": 0,
+            "material": 16
+          },
+          {
+            "rarity": 1,
+            "material": 20
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Borealis",
+    "imageUrl": "",
+    "oreLocations": [
+      {
+        "name": "Surface",
+        "locationType": 1,
+        "ores": [
+          {
+            "rarity": 2,
+            "material": 30
+          },
+          {
+            "rarity": 0,
+            "material": 5
+          },
+          {
+            "rarity": 1,
+            "material": 7
+          },
+          {
+            "rarity": 1,
+            "material": 10
+          },
+          {
+            "rarity": 0,
+            "material": 22
+          },
+          {
+            "rarity": 2,
+            "material": 20
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Szalonna",
+    "imageUrl": "",
+    "oreLocations": [
+      {
+        "name": "Surface",
+        "locationType": 1,
+        "ores": [
+          {
+            "rarity": 2,
+            "material": 30
+          },
+          {
+            "rarity": 1,
+            "material": 0
+          },
+          {
+            "rarity": 0,
+            "material": 14
+          },
+          {
+            "rarity": 0,
+            "material": 16
+          },
+          {
+            "rarity": 2,
+            "material": 21
+          },
+          {
+            "rarity": 1,
+            "material": 31
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ciel",
+    "imageUrl": "",
+    "oreLocations": [
+      {
+        "name": "Surface",
+        "locationType": 1,
+        "ores": [
+          {
+            "rarity": 2,
+            "material": 30
+          },
+          {
+            "rarity": 0,
+            "material": 3
+          },
+          {
+            "rarity": 2,
+            "material": 10
+          },
+          {
+            "rarity": 1,
+            "material": 14
+          },
+          {
+            "rarity": 0,
+            "material": 18
+          },
+          {
+            "rarity": 1,
+            "material": 28
+          },
+          {
+            "rarity": 0,
+            "material": 33
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Vilous",
+    "imageUrl": "",
+    "oreLocations": [
+      {
+        "name": "Surface",
+        "locationType": 1,
+        "ores": [
+          {
+            "rarity": 2,
+            "material": 30
+          },
+          {
+            "rarity": 2,
+            "material": 1
+          },
+          {
+            "rarity": 0,
+            "material": 3
+          },
+          {
+            "rarity": 2,
+            "material": 22
+          },
+          {
+            "rarity": 2,
+            "material": 30
+          },
+          {
+            "rarity": 2,
+            "material": 31
+          },
+          {
+            "rarity": 0,
+            "material": 33
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cassini",
+    "imageUrl": "",
+    "oreLocations": [
+      {
+        "name": "Surface",
+        "locationType": 1,
+        "ores": [
+          {
+            "rarity": 2,
+            "material": 30
+          },
+          {
+            "rarity": 0,
+            "material": 3
+          },
+          {
+            "rarity": 2,
+            "material": 5
+          },
+          {
+            "rarity": 2,
+            "material": 7
+          },
+          {
+            "rarity": 1,
+            "material": 11
+          },
+          {
+            "rarity": 1,
+            "material": 24
+          },
+          {
+            "rarity": 0,
+            "material": 33
+          }
+        ]
+      }
+    ]
+  }
+]

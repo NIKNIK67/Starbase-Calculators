@@ -1,0 +1,546 @@
+[
+  {
+    "id": 101,
+    "name": "Exorium procesing unit",
+    "compositions": [
+      {
+        "material": 19,
+        "amount": 35449
+      },
+      {
+        "material": 7,
+        "amount": 15062
+      },
+      {
+        "material": 0,
+        "amount": 13280
+      },
+      {
+        "material": 33,
+        "amount": 11297
+      },
+      {
+        "material": 18,
+        "amount": 6638
+      },
+      {
+        "material": 5,
+        "amount": 5432
+      },
+      {
+        "material": 2,
+        "amount": 3657
+      },
+      {
+        "material": 1,
+        "amount": 1662
+      },
+      {
+        "material": 8,
+        "amount": 1416
+      },
+      {
+        "material": 4,
+        "amount": 1330
+      },
+      {
+        "material": 3,
+        "amount": 1062
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "name": "Exorium Tank Module",
+    "compositions": [
+      {
+        "material": 19,
+        "amount": 18811
+      },
+      {
+        "material": 0,
+        "amount": 19985
+      },
+      {
+        "material": 18,
+        "amount": 29982
+      },
+      {
+        "material": 2,
+        "amount": 3657
+      },
+      {
+        "material": 1,
+        "amount": 1662
+      },
+      {
+        "material": 4,
+        "amount": 1330
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "name": "Fast Travel Core Module",
+    "compositions": [
+      {
+        "material": 19,
+        "amount": 8270
+      },
+      {
+        "material": 7,
+        "amount": 16926
+      },
+      {
+        "material": 0,
+        "amount": 6529
+      },
+      {
+        "material": 18,
+        "amount": 23943
+      },
+      {
+        "material": 5,
+        "amount": 11455
+      },
+      {
+        "material": 1,
+        "amount": 11872
+      },
+      {
+        "material": 8,
+        "amount": 9223
+      },
+      {
+        "material": 3,
+        "amount": 13528
+      },
+      {
+        "material": 31,
+        "amount": 10871
+      },
+      {
+        "material": 17,
+        "amount": 11144
+      },
+      {
+        "material": 11,
+        "amount": 2733
+      },
+      {
+        "material": 15,
+        "amount": 1093
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "name": "Fast Travel Propellant Tank",
+    "compositions": [
+      {
+        "material": 19,
+        "amount": 18079
+      },
+      {
+        "material": 0,
+        "amount": 16710
+      },
+      {
+        "material": 33,
+        "amount": 8109
+      },
+      {
+        "material": 18,
+        "amount": 12316
+      },
+      {
+        "material": 5,
+        "amount": 11567
+      },
+      {
+        "material": 2,
+        "amount": 3657
+      },
+      {
+        "material": 1,
+        "amount": 1662
+      },
+      {
+        "material": 4,
+        "amount": 1330
+      },
+      {
+        "material": 3,
+        "amount": 351
+      },
+      {
+        "material": 31,
+        "amount": 2352
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "name": "Generator Module",
+    "compositions": [
+      {
+        "material": 19,
+        "amount": 21209
+      },
+      {
+        "material": 7,
+        "amount": 29051
+      },
+      {
+        "material": 33,
+        "amount": 11947
+      },
+      {
+        "material": 18,
+        "amount": 49661
+      },
+      {
+        "material": 2,
+        "amount": 3657
+      },
+      {
+        "material": 1,
+        "amount": 1662
+      },
+      {
+        "material": 8,
+        "amount": 598
+      },
+      {
+        "material": 4,
+        "amount": 1330
+      },
+      {
+        "material": 3,
+        "amount": 822
+      },
+      {
+        "material": 31,
+        "amount": 1720
+      },
+      {
+        "material": 30,
+        "amount": 11947
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "name": "Reconstruction Machine",
+    "compositions": [
+      {
+        "material": 7,
+        "amount": 2971
+      },
+      {
+        "material": 0,
+        "amount": 11884
+      },
+      {
+        "material": 18,
+        "amount": 7922
+      },
+      {
+        "material": 5,
+        "amount": 816
+      },
+      {
+        "material": 3,
+        "amount": 22778
+      },
+      {
+        "material": 31,
+        "amount": 16836
+      },
+      {
+        "material": 11,
+        "amount": 9903
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "name": "Shield Generator",
+    "compositions": [
+      {
+        "material": 19,
+        "amount": 67672
+      },
+      {
+        "material": 0,
+        "amount": 45193
+      },
+      {
+        "material": 18,
+        "amount": 35156
+      },
+      {
+        "material": 3,
+        "amount": 17887
+      },
+      {
+        "material": 31,
+        "amount": 3587
+      },
+      {
+        "material": 17,
+        "amount": 28807
+      },
+      {
+        "material": 32,
+        "amount": 5535
+      },
+      {
+        "material": 24,
+        "amount": 1977
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "name": "Shield Generator",
+    "compositions": [
+      {
+        "material": 19,
+        "amount": 67672
+      },
+      {
+        "material": 0,
+        "amount": 45193
+      },
+      {
+        "material": 18,
+        "amount": 35156
+      },
+      {
+        "material": 3,
+        "amount": 17887
+      },
+      {
+        "material": 31,
+        "amount": 3587
+      },
+      {
+        "material": 17,
+        "amount": 28807
+      },
+      {
+        "material": 32,
+        "amount": 5535
+      },
+      {
+        "material": 24,
+        "amount": 1977
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "name": "Supply Conduit Straight",
+    "compositions": [
+      {
+        "material": 7,
+        "amount": 213
+      },
+      {
+        "material": 0,
+        "amount": 213
+      },
+      {
+        "material": 31,
+        "amount": 427
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "name": "Supply Conduit Nexus",
+    "compositions": [
+      {
+        "material": 5,
+        "amount": 161
+      },
+      {
+        "material": 1,
+        "amount": 138
+      },
+      {
+        "material": 8,
+        "amount": 161
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "name": "Thruster Module Frame",
+    "compositions": [
+      {
+        "material": 7,
+        "amount": 23987
+      },
+      {
+        "material": 0,
+        "amount": 25114
+      },
+      {
+        "material": 33,
+        "amount": 17105
+      },
+      {
+        "material": 2,
+        "amount": 31182
+      },
+      {
+        "material": 1,
+        "amount": 1662
+      },
+      {
+        "material": 8,
+        "amount": 2064
+      },
+      {
+        "material": 4,
+        "amount": 1330
+      },
+      {
+        "material": 3,
+        "amount": 23934
+      },
+      {
+        "material": 31,
+        "amount": 18612
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "name": "Thruster Module Nozzle Ring",
+    "compositions": [
+      {
+        "material": 19,
+        "amount": 7729
+      },
+      {
+        "material": 7,
+        "amount": 4637
+      },
+      {
+        "material": 33,
+        "amount": 6956
+      },
+      {
+        "material": 2,
+        "amount": 3864
+      },
+      {
+        "material": 8,
+        "amount": 1932
+      },
+      {
+        "material": 3,
+        "amount": 9661
+      },
+      {
+        "material": 31,
+        "amount": 3864
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "name": "Thruster Module Nozzle End",
+    "compositions": [
+      {
+        "material": 0,
+        "amount": 4510
+      },
+      {
+        "material": 33,
+        "amount": 5261
+      },
+      {
+        "material": 2,
+        "amount": 5261
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "name": "Thruster Module Nozzle Support",
+    "compositions": [
+      {
+        "material": 1,
+        "amount": 1662
+      },
+      {
+        "material": 4,
+        "amount": 1330
+      },
+      {
+        "material": 2,
+        "amount": 5261
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "name": "Exorium Filler tool",
+    "compositions": [
+      {
+        "material": 0,
+        "amount": 532
+      },
+      {
+        "material": 5,
+        "amount": 533
+      },
+      {
+        "material": 31,
+        "amount": 152
+      },
+      {
+        "material": 11,
+        "amount": 20266
+      },
+      {
+        "material": 15,
+        "amount": 20266
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "name": "Karnite Filler tool",
+    "compositions": [
+      {
+        "material": 0,
+        "amount": 532
+      },
+      {
+        "material": 7,
+        "amount": 152
+      },
+      {
+        "material": 5,
+        "amount": 381
+      },
+      {
+        "material": 31,
+        "amount": 152
+      },
+      {
+        "material": 17,
+        "amount": 60800
+      },
+      {
+        "material": 15,
+        "amount": 20266
+      }
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "heatDispiration": 5,
+    "heatProduction": 95,
+    "heatStore": 1500,
+    "heatTransferToHeatsink": 1500,
+    "heatTransferToRadiator": 30,
+    "name": "Fuel chamber T1"
+  },
+  {
+    "heatDispiration": 5,
+    "heatProduction": 95,
+    "heatStore": 1500,
+    "heatTransferToHeatsink": 1500,
+    "heatTransferToRadiator": 30,
+    "name": "Fuel chamber T2"
+  },
+  {
+    "heatDispiration": 5,
+    "heatProduction": 80,
+    "heatStore": 1500,
+    "heatTransferToHeatsink": 1500,
+    "heatTransferToRadiator": 30,
+    "name": "Fuel chamber T3"
+  }
+]

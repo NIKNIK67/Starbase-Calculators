@@ -1,0 +1,79 @@
+[
+  {
+    "electricityConsume": 210,
+    "electricityConsumePassive": 0,
+    "propelantConsume": 30.96,
+    "thrustProduction": 500000,
+    "name": "Box thruster T1"
+  },
+  {
+    "electricityConsume": 183.6,
+    "electricityConsumePassive": 0,
+    "propelantConsume": 26.966,
+    "thrustProduction": 550000,
+    "name": "Box thruster T2"
+  },
+  {
+    "electricityConsume": 183.6,
+    "electricityConsumePassive": 0,
+    "propelantConsume": 39.154,
+    "thrustProduction": 650000,
+    "name": "Box thruster T3"
+  },
+  {
+    "electricityConsume": 96.2,
+    "electricityConsumePassive": 0,
+    "propelantConsume": 27.864,
+    "thrustProduction": 300000,
+    "name": "Triangle thruster T1"
+  },
+  {
+    "electricityConsume": 84.1,
+    "electricityConsumePassive": 0,
+    "propelantConsume": 24.369,
+    "thrustProduction": 330000,
+    "name": "Triangle thruster T2"
+  },
+  {
+    "electricityConsume": 84.1,
+    "electricityConsumePassive": 0,
+    "propelantConsume": 24.369,
+    "thrustProduction": 330000,
+    "name": "Triangle thruster T3"
+  },
+  {
+    "electricityConsume": 913.3,
+    "electricityConsumePassive": 0,
+    "propelantConsume": 248,
+    "thrustProduction": 4000000,
+    "name": "Plasma thruster body"
+  },
+  {
+    "electricityConsume": 880,
+    "electricityConsumePassive": 0,
+    "propelantConsume": 386,
+    "thrustProduction": 7000000,
+    "name": "Plasma thruster ring"
+  },
+  {
+    "electricityConsume": 40,
+    "electricityConsumePassive": 0,
+    "propelantConsume": 15,
+    "thrustProduction": 40000,
+    "name": "Maneuver thruster T1"
+  },
+  {
+    "electricityConsume": 36,
+    "electricityConsumePassive": 0,
+    "propelantConsume": 13.5,
+    "thrustProduction": 44000,
+    "name": "Maneuver thruster T2"
+  },
+  {
+    "electricityConsume": 36,
+    "electricityConsumePassive": 0,
+    "propelantConsume": 18,
+    "thrustProduction": 52000,
+    "name": "Maneuver thruster T3"
+  }
+]
