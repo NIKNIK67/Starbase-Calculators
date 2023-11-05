@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { MaterialsNamesDto, OreLocation } from '../api/models';
+import { MaterialObject, OreLocation } from '../api/models';
 
 @Component({
   selector: 'app-location-card',
@@ -10,7 +10,7 @@ export class LocationCardComponent {
   @Input() name: string = ""
   @Input() url: string = ""
   @Input() Orelocations: OreLocation[] = []
-  materialsNames: MaterialsNamesDto[] = []
+  materialsNames: MaterialObject[] = []
   
   ngOnInit(): void {
     console.log(name)

@@ -12,7 +12,7 @@
         <div class="col text-center"><input id="{{item.id}}" type="number" value="0" min="0" step="1" class="form-control border-0" (input)="calcParts()"></div>
       </div>
     </div>
-    <p>This page is based and re-created from <a href="https://docs.google.com/spreadsheets/d/19p8NRY0y6B5uIOAYGCcHGCTEVjf2qkKXF0p9b4tWGC8">this spreadsheet</a></p>
+    <p>This page is based on <a href="https://docs.google.com/spreadsheets/d/19p8NRY0y6B5uIOAYGCcHGCTEVjf2qkKXF0p9b4tWGC8">this spreadsheet</a></p>
   </div>
   <div class="col-4">
     <div class="card bg-body-tertiary m-1 mb-2 border-0 pb-2 pt-2">
@@ -20,7 +20,7 @@
         <div class="col text-center">
           {{name.name}}
         </div>
-        <div class="col" id="{{name.id}}">{{partsSum[name.id]}}</div>
+        <div class="col" id="{{name.id}}">{{partsSum[name.id-1]}}</div>
       </div>
     </div>
   </div>

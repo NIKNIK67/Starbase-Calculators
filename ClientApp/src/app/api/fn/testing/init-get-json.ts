@@ -6,13 +6,12 @@ import { filter, map } from 'rxjs/operators';
 import { StrictHttpResponse } from '../../strict-http-response';
 import { RequestBuilder } from '../../request-builder';
 
-import { Item } from '../../models/item';
 
-export interface GetCapitalItemsGet$Json$Params {
+export interface InitGet$Json$Params {
 }
 
-export function getCapitalItemsGet$Json(http: HttpClient, rootUrl: string, params?: GetCapitalItemsGet$Json$Params, context?: HttpContext): Observable<StrictHttpResponse<Array<Item>>> {
-  const rb = new RequestBuilder(rootUrl, getCapitalItemsGet$Json.PATH, 'get');
+export function initGet$Json(http: HttpClient, rootUrl: string, params?: InitGet$Json$Params, context?: HttpContext): Observable<StrictHttpResponse<string>> {
+  const rb = new RequestBuilder(rootUrl, initGet$Json.PATH, 'get');
   if (params) {
   }
 
@@ -21,9 +20,9 @@ export function getCapitalItemsGet$Json(http: HttpClient, rootUrl: string, param
   ).pipe(
     filter((r: any): r is HttpResponse<any> => r instanceof HttpResponse),
     map((r: HttpResponse<any>) => {
-      return r as StrictHttpResponse<Array<Item>>;
+      return r as StrictHttpResponse<string>;
     })
   );
 }
 
-getCapitalItemsGet$Json.PATH = '/GetCapitalItems';
+initGet$Json.PATH = '/init';

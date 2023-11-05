@@ -6,13 +6,12 @@ import { filter, map } from 'rxjs/operators';
 import { StrictHttpResponse } from '../../strict-http-response';
 import { RequestBuilder } from '../../request-builder';
 
-import { Item } from '../../models/item';
 
-export interface GetAlloyItemsGet$Plain$Params {
+export interface InitGet$Plain$Params {
 }
 
-export function getAlloyItemsGet$Plain(http: HttpClient, rootUrl: string, params?: GetAlloyItemsGet$Plain$Params, context?: HttpContext): Observable<StrictHttpResponse<Array<Item>>> {
-  const rb = new RequestBuilder(rootUrl, getAlloyItemsGet$Plain.PATH, 'get');
+export function initGet$Plain(http: HttpClient, rootUrl: string, params?: InitGet$Plain$Params, context?: HttpContext): Observable<StrictHttpResponse<string>> {
+  const rb = new RequestBuilder(rootUrl, initGet$Plain.PATH, 'get');
   if (params) {
   }
 
@@ -21,9 +20,9 @@ export function getAlloyItemsGet$Plain(http: HttpClient, rootUrl: string, params
   ).pipe(
     filter((r: any): r is HttpResponse<any> => r instanceof HttpResponse),
     map((r: HttpResponse<any>) => {
-      return r as StrictHttpResponse<Array<Item>>;
+      return r as StrictHttpResponse<string>;
     })
   );
 }
 
-getAlloyItemsGet$Plain.PATH = '/GetAlloyItems';
+initGet$Plain.PATH = '/init';

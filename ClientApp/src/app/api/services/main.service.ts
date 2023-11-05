@@ -60,9 +60,9 @@ import { getWeaponsGet$Json } from '../fn/main/get-weapons-get-json';
 import { GetWeaponsGet$Json$Params } from '../fn/main/get-weapons-get-json';
 import { getWeaponsGet$Plain } from '../fn/main/get-weapons-get-plain';
 import { GetWeaponsGet$Plain$Params } from '../fn/main/get-weapons-get-plain';
-import { ItemOutputDto } from '../models/item-output-dto';
+import { Item } from '../models/item';
 import { Location } from '../models/location';
-import { MaterialsNamesDto } from '../models/materials-names-dto';
+import { MaterialObject } from '../models/material-object';
 import { PropelantTank } from '../models/propelant-tank';
 import { Radiator } from '../models/radiator';
 import { Thruster } from '../models/thruster';
@@ -84,7 +84,7 @@ export class MainService extends BaseService {
    *
    * This method doesn't expect any request body.
    */
-  getCapitalItemsGet$Plain$Response(params?: GetCapitalItemsGet$Plain$Params, context?: HttpContext): Observable<StrictHttpResponse<Array<ItemOutputDto>>> {
+  getCapitalItemsGet$Plain$Response(params?: GetCapitalItemsGet$Plain$Params, context?: HttpContext): Observable<StrictHttpResponse<Array<Item>>> {
     return getCapitalItemsGet$Plain(this.http, this.rootUrl, params, context);
   }
 
@@ -94,9 +94,9 @@ export class MainService extends BaseService {
    *
    * This method doesn't expect any request body.
    */
-  getCapitalItemsGet$Plain(params?: GetCapitalItemsGet$Plain$Params, context?: HttpContext): Observable<Array<ItemOutputDto>> {
+  getCapitalItemsGet$Plain(params?: GetCapitalItemsGet$Plain$Params, context?: HttpContext): Observable<Array<Item>> {
     return this.getCapitalItemsGet$Plain$Response(params, context).pipe(
-      map((r: StrictHttpResponse<Array<ItemOutputDto>>): Array<ItemOutputDto> => r.body)
+      map((r: StrictHttpResponse<Array<Item>>): Array<Item> => r.body)
     );
   }
 
@@ -106,7 +106,7 @@ export class MainService extends BaseService {
    *
    * This method doesn't expect any request body.
    */
-  getCapitalItemsGet$Json$Response(params?: GetCapitalItemsGet$Json$Params, context?: HttpContext): Observable<StrictHttpResponse<Array<ItemOutputDto>>> {
+  getCapitalItemsGet$Json$Response(params?: GetCapitalItemsGet$Json$Params, context?: HttpContext): Observable<StrictHttpResponse<Array<Item>>> {
     return getCapitalItemsGet$Json(this.http, this.rootUrl, params, context);
   }
 
@@ -116,9 +116,9 @@ export class MainService extends BaseService {
    *
    * This method doesn't expect any request body.
    */
-  getCapitalItemsGet$Json(params?: GetCapitalItemsGet$Json$Params, context?: HttpContext): Observable<Array<ItemOutputDto>> {
+  getCapitalItemsGet$Json(params?: GetCapitalItemsGet$Json$Params, context?: HttpContext): Observable<Array<Item>> {
     return this.getCapitalItemsGet$Json$Response(params, context).pipe(
-      map((r: StrictHttpResponse<Array<ItemOutputDto>>): Array<ItemOutputDto> => r.body)
+      map((r: StrictHttpResponse<Array<Item>>): Array<Item> => r.body)
     );
   }
 
@@ -131,7 +131,7 @@ export class MainService extends BaseService {
    *
    * This method doesn't expect any request body.
    */
-  getMaterialsNamesGet$Plain$Response(params?: GetMaterialsNamesGet$Plain$Params, context?: HttpContext): Observable<StrictHttpResponse<Array<MaterialsNamesDto>>> {
+  getMaterialsNamesGet$Plain$Response(params?: GetMaterialsNamesGet$Plain$Params, context?: HttpContext): Observable<StrictHttpResponse<Array<MaterialObject>>> {
     return getMaterialsNamesGet$Plain(this.http, this.rootUrl, params, context);
   }
 
@@ -141,9 +141,9 @@ export class MainService extends BaseService {
    *
    * This method doesn't expect any request body.
    */
-  getMaterialsNamesGet$Plain(params?: GetMaterialsNamesGet$Plain$Params, context?: HttpContext): Observable<Array<MaterialsNamesDto>> {
+  getMaterialsNamesGet$Plain(params?: GetMaterialsNamesGet$Plain$Params, context?: HttpContext): Observable<Array<MaterialObject>> {
     return this.getMaterialsNamesGet$Plain$Response(params, context).pipe(
-      map((r: StrictHttpResponse<Array<MaterialsNamesDto>>): Array<MaterialsNamesDto> => r.body)
+      map((r: StrictHttpResponse<Array<MaterialObject>>): Array<MaterialObject> => r.body)
     );
   }
 
@@ -153,7 +153,7 @@ export class MainService extends BaseService {
    *
    * This method doesn't expect any request body.
    */
-  getMaterialsNamesGet$Json$Response(params?: GetMaterialsNamesGet$Json$Params, context?: HttpContext): Observable<StrictHttpResponse<Array<MaterialsNamesDto>>> {
+  getMaterialsNamesGet$Json$Response(params?: GetMaterialsNamesGet$Json$Params, context?: HttpContext): Observable<StrictHttpResponse<Array<MaterialObject>>> {
     return getMaterialsNamesGet$Json(this.http, this.rootUrl, params, context);
   }
 
@@ -163,9 +163,9 @@ export class MainService extends BaseService {
    *
    * This method doesn't expect any request body.
    */
-  getMaterialsNamesGet$Json(params?: GetMaterialsNamesGet$Json$Params, context?: HttpContext): Observable<Array<MaterialsNamesDto>> {
+  getMaterialsNamesGet$Json(params?: GetMaterialsNamesGet$Json$Params, context?: HttpContext): Observable<Array<MaterialObject>> {
     return this.getMaterialsNamesGet$Json$Response(params, context).pipe(
-      map((r: StrictHttpResponse<Array<MaterialsNamesDto>>): Array<MaterialsNamesDto> => r.body)
+      map((r: StrictHttpResponse<Array<MaterialObject>>): Array<MaterialObject> => r.body)
     );
   }
 
@@ -178,7 +178,7 @@ export class MainService extends BaseService {
    *
    * This method doesn't expect any request body.
    */
-  getAlloyItemsGet$Plain$Response(params?: GetAlloyItemsGet$Plain$Params, context?: HttpContext): Observable<StrictHttpResponse<Array<ItemOutputDto>>> {
+  getAlloyItemsGet$Plain$Response(params?: GetAlloyItemsGet$Plain$Params, context?: HttpContext): Observable<StrictHttpResponse<Array<Item>>> {
     return getAlloyItemsGet$Plain(this.http, this.rootUrl, params, context);
   }
 
@@ -188,9 +188,9 @@ export class MainService extends BaseService {
    *
    * This method doesn't expect any request body.
    */
-  getAlloyItemsGet$Plain(params?: GetAlloyItemsGet$Plain$Params, context?: HttpContext): Observable<Array<ItemOutputDto>> {
+  getAlloyItemsGet$Plain(params?: GetAlloyItemsGet$Plain$Params, context?: HttpContext): Observable<Array<Item>> {
     return this.getAlloyItemsGet$Plain$Response(params, context).pipe(
-      map((r: StrictHttpResponse<Array<ItemOutputDto>>): Array<ItemOutputDto> => r.body)
+      map((r: StrictHttpResponse<Array<Item>>): Array<Item> => r.body)
     );
   }
 
@@ -200,7 +200,7 @@ export class MainService extends BaseService {
    *
    * This method doesn't expect any request body.
    */
-  getAlloyItemsGet$Json$Response(params?: GetAlloyItemsGet$Json$Params, context?: HttpContext): Observable<StrictHttpResponse<Array<ItemOutputDto>>> {
+  getAlloyItemsGet$Json$Response(params?: GetAlloyItemsGet$Json$Params, context?: HttpContext): Observable<StrictHttpResponse<Array<Item>>> {
     return getAlloyItemsGet$Json(this.http, this.rootUrl, params, context);
   }
 
@@ -210,9 +210,9 @@ export class MainService extends BaseService {
    *
    * This method doesn't expect any request body.
    */
-  getAlloyItemsGet$Json(params?: GetAlloyItemsGet$Json$Params, context?: HttpContext): Observable<Array<ItemOutputDto>> {
+  getAlloyItemsGet$Json(params?: GetAlloyItemsGet$Json$Params, context?: HttpContext): Observable<Array<Item>> {
     return this.getAlloyItemsGet$Json$Response(params, context).pipe(
-      map((r: StrictHttpResponse<Array<ItemOutputDto>>): Array<ItemOutputDto> => r.body)
+      map((r: StrictHttpResponse<Array<Item>>): Array<Item> => r.body)
     );
   }
 

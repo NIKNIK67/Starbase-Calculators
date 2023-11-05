@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ItemOutputDto, MaterialsNamesDto } from '../api/models';
+import { Item, MaterialObject } from '../api/models';
 import { MainService } from '../api/services';
 
 @Component({
@@ -8,8 +8,8 @@ import { MainService } from '../api/services';
   styleUrls: ['./capital-calc.component.css']
 })
 export class CapitalCalcComponent implements OnInit {
-  items: ItemOutputDto[] = []
-  materialsNames: MaterialsNamesDto[] = []
+  items: Item[] = []
+  materialsNames: MaterialObject[] = []
   partsSum: Array<number> = new Array<number>(34)
   constructor(private dataService: MainService) {
 
@@ -38,15 +38,17 @@ export class CapitalCalcComponent implements OnInit {
     {
       element.push(document.getElementById(i.toString()) as HTMLInputElement);
     }
-    for (let i = this.items[0].id; i < this.items[this.items.length - 1].id+1; i++) {
+    for (let i = this.items[0].id; i < this.items[this.items.length - 1].id + 1; i++)
+    {
       if (Number(element.filter(x => Number(x.id) === i)[0]?.value ?? 0) !== 0)
-      for (let j = 0; j < this.partsSum.length; j++)
-      {
-        const matAmount:number = this.items.filter((x) => x.id === i)[0].compositions.filter(x => x.material === j)[0]?.amount || 0
-        const times: number = Number(element.filter(x => Number(x.id) === i)[0]?.value ?? 0)
-        this.partsSum[j] += Math.ceil((matAmount * times) / 1728)
-      }
+        for (let j = 0; j < this.partsSum.length; j++) {
+          const matAmount: number = this.items.filter((x) => x.id === i)[0].compositions.filter(x => x.material === j)[0]?.amount || 0
+          const times: number = Number(element.filter(x => Number(x.id) === i)[0]?.value ?? 0)
+          this.partsSum[j] += (matAmount * times) / 1728
+        }
     }
+    for (let j = 0; j < this.partsSum.length; j++)
+      this.partsSum[j] = Math.ceil(this.partsSum[j]);
   }
 }
 

@@ -5,6 +5,7 @@ import { HttpClient } from '@angular/common/http';
 import { ApiConfiguration, ApiConfigurationParams } from './api-configuration';
 
 import { MainService } from './services/main.service';
+import { TestingService } from './services/testing.service';
 
 /**
  * Module that provides all services and configuration.
@@ -15,6 +16,7 @@ import { MainService } from './services/main.service';
   declarations: [],
   providers: [
     MainService,
+    TestingService,
     ApiConfiguration
   ],
 })

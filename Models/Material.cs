@@ -4,7 +4,7 @@ namespace WebPage.Models
 {
     public enum Material
     {
-        AegisiumOre,
+        AegisiumOre = 1,
         AjatiteOre,
         AliumAlloy,
         ArkaniumOre,

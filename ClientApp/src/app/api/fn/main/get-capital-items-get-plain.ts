@@ -6,12 +6,12 @@ import { filter, map } from 'rxjs/operators';
 import { StrictHttpResponse } from '../../strict-http-response';
 import { RequestBuilder } from '../../request-builder';
 
-import { ItemOutputDto } from '../../models/item-output-dto';
+import { Item } from '../../models/item';
 
 export interface GetCapitalItemsGet$Plain$Params {
 }
 
-export function getCapitalItemsGet$Plain(http: HttpClient, rootUrl: string, params?: GetCapitalItemsGet$Plain$Params, context?: HttpContext): Observable<StrictHttpResponse<Array<ItemOutputDto>>> {
+export function getCapitalItemsGet$Plain(http: HttpClient, rootUrl: string, params?: GetCapitalItemsGet$Plain$Params, context?: HttpContext): Observable<StrictHttpResponse<Array<Item>>> {
   const rb = new RequestBuilder(rootUrl, getCapitalItemsGet$Plain.PATH, 'get');
   if (params) {
   }
@@ -21,7 +21,7 @@ export function getCapitalItemsGet$Plain(http: HttpClient, rootUrl: string, para
   ).pipe(
     filter((r: any): r is HttpResponse<any> => r instanceof HttpResponse),
     map((r: HttpResponse<any>) => {
-      return r as StrictHttpResponse<Array<ItemOutputDto>>;
+      return r as StrictHttpResponse<Array<Item>>;
     })
   );
 }

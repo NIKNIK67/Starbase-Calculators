@@ -9,5 +9,6 @@ export interface Weapon {
   heatStore?: number;
   heatTransferToHeatsink?: number;
   heatTransferToRadiator?: number;
+  id?: number;
   name?: null | string;
 }

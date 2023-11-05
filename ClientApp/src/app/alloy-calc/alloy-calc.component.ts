@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ItemOutputDto, MaterialsNamesDto } from '../api/models';
+import { Item, MaterialObject } from '../api/models';
 import { MainService } from '../api/services';
 
 @Component({
@@ -8,8 +8,8 @@ import { MainService } from '../api/services';
   styleUrls: ['./alloy-calc.component.css']
 })
 export class AlloyCalcComponent implements OnInit {
-  materialsNames: MaterialsNamesDto[] = []
-  items: ItemOutputDto[]=[]
+  materialsNames: MaterialObject[] = []
+  items: Item[]=[]
   partsSum: Array<number> = new Array<number>(34).fill(0)
   constructor (private dataService: MainService)
   {
@@ -38,9 +38,11 @@ export class AlloyCalcComponent implements OnInit {
         for (let j = 0; j < this.partsSum.length; j++) {
           const matAmount: number = this.items.filter((x) => x.id === i)[0].compositions.filter(x => x.material === j)[0]?.amount || 0
           const times: number = Number(element.filter(x => Number(x.id) === i)[0]?.value ?? 0)
-          this.partsSum[j] += Math.ceil((matAmount * times) / 1728)
+          this.partsSum[j] += (matAmount * times) / 1728
         }
     }
+    for (let j = 0; j < this.partsSum.length; j++)
+      this.partsSum[j] = Math.ceil(this.partsSum[j]);
   }
 
 }

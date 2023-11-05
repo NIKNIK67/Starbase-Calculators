@@ -1,5 +1,5 @@
-import { Component} from '@angular/core';
-import { MaterialsNamesDto, Location } from '../api/models';
+import { Component } from '@angular/core';
+import { MaterialObject, Location } from '../api/models';
 import { MainService } from '../api/services';
 
 @Component({
@@ -8,7 +8,7 @@ import { MainService } from '../api/services';
   styleUrls: ['./resources-map.component.css']
 })
 export class ResourcesMapComponent {
-  materialsNames: MaterialsNamesDto[] = []
+  materialsNames: MaterialObject[] = []
   SpaceObjects: Location[] = []
   resultLocations: Location[] = []
   isChoosenOre: boolean[] = []

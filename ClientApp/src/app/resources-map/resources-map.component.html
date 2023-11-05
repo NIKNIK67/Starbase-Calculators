@@ -20,23 +20,23 @@
     <div class="card bg-body-tertiary m-1 mb-2 border-0 pb-2 pt-2">
       <div class="row pt-2">
         <div class="col text-center">
-          <input id="isSurface" class="form-check-input" type="checkbox" (change)="OnCheckboxLocationChange($event,1)" />
-        </div>
-        <div class="col text-center me-2">
-          In Surface
-        </div>
-      </div>
-      <div class="row pb-2">
-        <div class="col text-center">
           <input id="isBelt" class="form-check-input" type="checkbox" (change)="OnCheckboxLocationChange($event,0)" />
         </div>
         <div class="col text-center me-2">
           In Belt
         </div>
       </div>
+      <div class="row pb-2">
+        <div class="col text-center">
+          <input id="isSurface" class="form-check-input" type="checkbox" (change)="OnCheckboxLocationChange($event,1)" />
+        </div>
+        <div class="col text-center me-2">
+          In Surface
+        </div>
+      </div>
       <div class="row" *ngFor="let name of materialsNames">
         <div class="col text-center">
-          <input id="{{name.id}}" class="form-check-input" type="checkbox" (change)="onCheckboxOreChange($event)" />
+          <input id="{{name.id-1}}" class="form-check-input" type="checkbox" (change)="onCheckboxOreChange($event)" />
         </div>
         <div class="col text-center me-2">
           {{name.name}}

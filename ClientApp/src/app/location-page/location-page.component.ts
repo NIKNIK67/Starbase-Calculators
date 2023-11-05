@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { MaterialsNamesDto, Location } from '../api/models';
+import { MaterialObject, Location } from '../api/models';
 import { MainService } from '../api/services';
 
 @Component({
@@ -9,7 +9,7 @@ import { MainService } from '../api/services';
   styleUrls: ['./location-page.component.css']
 })
 export class LocationPageComponent {
-  materialsNames: MaterialsNamesDto[]
+  materialsNames: MaterialObject[]
   currentLocation: Location
   name: string = ""
   rarites: string[] = ["Common","Uncommon","Rare"]
